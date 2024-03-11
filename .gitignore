@@ -1,8 +1,6 @@
 .Python
 [Bb]in
 [Ii]nclude
-[Ll]ib
-[Ll]ib64
 [Ll]ocal
 [Ss]cripts
 pyvenv.cfg
@@ -618,3 +616,4 @@ doc/api/
 *.js.deps
 *.js.map
 secring.*
+lib/generated
