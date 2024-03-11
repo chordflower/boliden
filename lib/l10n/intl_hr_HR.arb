@@ -1,0 +1,44 @@
+{
+	"@@locale": "hr",
+	"editCancelButtonTitle": "Odustani od trenutnih promjena",
+	"editSaveButtonTitle": "Sprema trenutne promjene",
+	"editTaskCompletionBetweenError": "Vrijednost dovršetka mora biti između 0 i 100",
+	"editTaskCompletionHelp": "Vrijednost dovršetka zadatka",
+	"editTaskCompletionLabel": "Završetak",
+	"editTaskDescriptionHelp": "Opis zadatka",
+	"editTaskDescriptionLabel": "Opis",
+	"editTaskIdentifierHelp": "Interni identifikator zadatka ( Generira se automatski )",
+	"editTaskIdentifierLabel": "Identifikator",
+	"editTaskNameHelp": "Naziv zadatka",
+	"editTaskNameLabel": "Ime",
+	"editTaskNameRequiredError": "Naziv je obavezan",
+	"editTaskTagsHelp": "Oznake zadatka ( Odvojeno zarezom )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Može biti najviše samo 5 oznaka",
+	"editTitleEditTask": "Uređivanje zadatka {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Novi zadatak",
+	"listAddTaskButtonTitle": "Dodavanje novog zadatka",
+	"listEditTaskButtonTitle": "Uredi ovaj zadatak",
+	"listEmptyTaskList": "Popis zadataka je prazan, zašto ne dodati novi?",
+	"listHeaderTaskId": "Zadatak {{id}}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Popis zadataka",
+	"listRemoveTaskButtonTitle": "Ukloni ovaj zadatak"
+}

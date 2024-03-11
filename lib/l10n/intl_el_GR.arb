@@ -1,0 +1,44 @@
+{
+	"@@locale": "el",
+	"editCancelButtonTitle": "Ακύρωση τρεχουσών αλλαγών",
+	"editSaveButtonTitle": "Αποθηκεύει τις τρέχουσες αλλαγές",
+	"editTaskCompletionBetweenError": "Η τιμή ολοκλήρωσης πρέπει να είναι μεταξύ 0 και 100",
+	"editTaskCompletionHelp": "Τιμή ολοκλήρωσης εργασίας",
+	"editTaskCompletionLabel": "Αποπεράτωση",
+	"editTaskDescriptionHelp": "Περιγραφή της εργασίας",
+	"editTaskDescriptionLabel": "Περιγραφή",
+	"editTaskIdentifierHelp": "Το εσωτερικό αναγνωριστικό εργασίας ( Δημιουργείται αυτόματα )",
+	"editTaskIdentifierLabel": "Αναγνωριστικό",
+	"editTaskNameHelp": "Το όνομα της εργασίας",
+	"editTaskNameLabel": "Όνομα",
+	"editTaskNameRequiredError": "Το όνομα είναι υποχρεωτικό",
+	"editTaskTagsHelp": "Οι ετικέτες της εργασίας ( Διαχωρισμένες με κόμμα )",
+	"editTaskTagsLabel": "Ετικέτες",
+	"editTaskTagsMaxLengthError": "Μπορούν να υπάρχουν μόνο 5 ετικέτες το πολύ",
+	"editTitleEditTask": "Επεξεργασία εργασίας {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Νέα εργασία",
+	"listAddTaskButtonTitle": "Προσθήκη νέας εργασίας",
+	"listEditTaskButtonTitle": "Επεξεργασία αυτής της εργασίας",
+	"listEmptyTaskList": "Η λίστα εργασιών είναι κενή, γιατί να μην προσθέσετε μια νέα;",
+	"listHeaderTaskId": "Αγγαρεία {{id}}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Λίστα εργασιών",
+	"listRemoveTaskButtonTitle": "Κατάργηση αυτής της εργασίας"
+}

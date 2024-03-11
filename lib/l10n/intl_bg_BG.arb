@@ -1,0 +1,44 @@
+{
+	"@@locale": "bg",
+	"editCancelButtonTitle": "Отмяна на текущите промени",
+	"editSaveButtonTitle": "Записва текущите промени",
+	"editTaskCompletionBetweenError": "Стойността на завършване трябва да бъде между 0 и 100",
+	"editTaskCompletionHelp": "Стойност на завършване на задача",
+	"editTaskCompletionLabel": "Завършване",
+	"editTaskDescriptionHelp": "Описание на задачата",
+	"editTaskDescriptionLabel": "Описание",
+	"editTaskIdentifierHelp": "Вътрешният идентификатор на задачата ( Генерира се автоматично )",
+	"editTaskIdentifierLabel": "Идентификатор",
+	"editTaskNameHelp": "Името на задачата",
+	"editTaskNameLabel": "Име",
+	"editTaskNameRequiredError": "Името е задължително",
+	"editTaskTagsHelp": "Таговете на задачата ( Разделени със запетая )",
+	"editTaskTagsLabel": "Етикети",
+	"editTaskTagsMaxLengthError": "Може да има само 5 етикета на максимум",
+	"editTitleEditTask": "Редактиране на задача {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Нова задача",
+	"listAddTaskButtonTitle": "Добавяне на нова задача",
+	"listEditTaskButtonTitle": "Редактиране на тази задача",
+	"listEmptyTaskList": "Списъкът със задачи е празен, защо да не добавите нов?",
+	"listHeaderTaskId": "Задача {{id}}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Списък със задачи",
+	"listRemoveTaskButtonTitle": "Премахване на тази задача"
+}

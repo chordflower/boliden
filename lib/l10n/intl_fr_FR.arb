@@ -1,0 +1,44 @@
+{
+	"@@locale": "fr",
+	"editCancelButtonTitle": "Annuler les modifications en cours",
+	"editSaveButtonTitle": "Enregistre les modifications en cours",
+	"editTaskCompletionBetweenError": "La valeur d’achèvement doit être comprise entre 0 et 100",
+	"editTaskCompletionHelp": "Valeur d’achèvement de la tâche",
+	"editTaskCompletionLabel": "Achèvement",
+	"editTaskDescriptionHelp": "Description de la tâche",
+	"editTaskDescriptionLabel": "Description",
+	"editTaskIdentifierHelp": "L’identifiant interne de la tâche ( Il est généré automatiquement )",
+	"editTaskIdentifierLabel": "Identificateur",
+	"editTaskNameHelp": "Le nom de la tâche",
+	"editTaskNameLabel": "Nom",
+	"editTaskNameRequiredError": "Le nom est obligatoire",
+	"editTaskTagsHelp": "Les balises de la tâche ( Séparées par une virgule )",
+	"editTaskTagsLabel": "Étiquettes",
+	"editTaskTagsMaxLengthError": "Il ne peut y avoir que 5 balises au maximum",
+	"editTitleEditTask": "Modifier la tâche {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nouvelle tâche",
+	"listAddTaskButtonTitle": "Ajouter une nouvelle tâche",
+	"listEditTaskButtonTitle": "Modifier cette tâche",
+	"listEmptyTaskList": "La liste des tâches est vide, pourquoi ne pas en ajouter une nouvelle ?",
+	"listHeaderTaskId": "Tâche {{id}}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Liste des tâches",
+	"listRemoveTaskButtonTitle": "Supprimer cette tâche"
+}

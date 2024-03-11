@@ -1,0 +1,44 @@
+{
+	"@@locale": "sl",
+	"editCancelButtonTitle": "Preklic trenutnih sprememb",
+	"editSaveButtonTitle": "Shrani trenutne spremembe",
+	"editTaskCompletionBetweenError": "Vrednost dokončanja mora biti med 0 in 100",
+	"editTaskCompletionHelp": "Vrednost dokončanja opravila",
+	"editTaskCompletionLabel": "Zaključku",
+	"editTaskDescriptionHelp": "Opis naloge",
+	"editTaskDescriptionLabel": "Opis: __________",
+	"editTaskIdentifierHelp": "Notranji identifikator opravila ( Ustvari se samodejno )",
+	"editTaskIdentifierLabel": "Identifikator",
+	"editTaskNameHelp": "Ime opravila",
+	"editTaskNameLabel": "Ime",
+	"editTaskNameRequiredError": "Ime je obvezno",
+	"editTaskTagsHelp": "Oznake opravila ( Ločeno z vejico )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Največ 5 oznak je lahko",
+	"editTitleEditTask": "Urejanje opravila {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Novo opravilo",
+	"listAddTaskButtonTitle": "Dodajanje novega opravila",
+	"listEditTaskButtonTitle": "Urejanje tega opravila",
+	"listEmptyTaskList": "Seznam opravil je prazen, zakaj ne bi dodali novega?",
+	"listHeaderTaskId": "Opravilo {{id}}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Seznam opravil",
+	"listRemoveTaskButtonTitle": "Odstranite to opravilo"
+}

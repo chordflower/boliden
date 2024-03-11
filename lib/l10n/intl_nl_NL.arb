@@ -1,0 +1,44 @@
+{
+	"@@locale": "nl",
+	"editCancelButtonTitle": "Huidige wijzigingen annuleren",
+	"editSaveButtonTitle": "Slaat de huidige wijzigingen op",
+	"editTaskCompletionBetweenError": "De voltooiingswaarde moet tussen 0 en 100 liggen",
+	"editTaskCompletionHelp": "Waarde voor taakvoltooiing",
+	"editTaskCompletionLabel": "Voltooiing",
+	"editTaskDescriptionHelp": "Beschrijving van de taak",
+	"editTaskDescriptionLabel": "Omschrijving: __________",
+	"editTaskIdentifierHelp": "De interne identificatie van de taak (deze wordt automatisch gegenereerd)",
+	"editTaskIdentifierLabel": "Id",
+	"editTaskNameHelp": "De naam van de taak",
+	"editTaskNameLabel": "Naam",
+	"editTaskNameRequiredError": "De naam is verplicht",
+	"editTaskTagsHelp": "De tags van de taak ( Gescheiden door komma )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Er kunnen maximaal 5 tags zijn",
+	"editTitleEditTask": "Taak bewerken {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nieuwe taak",
+	"listAddTaskButtonTitle": "Voeg een nieuwe taak toe",
+	"listEditTaskButtonTitle": "Deze taak bewerken",
+	"listEmptyTaskList": "De takenlijst is leeg, waarom niet een nieuwe toevoegen?",
+	"listHeaderTaskId": "Taak {{id}}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Takenlijst",
+	"listRemoveTaskButtonTitle": "Deze taak verwijderen"
+}
