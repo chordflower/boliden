@@ -1,0 +1,44 @@
+{
+	"@@locale": "es-ES",
+	"editCancelButtonTitle": "Cancelar los cambios actuales",
+	"editSaveButtonTitle": "Guarda los cambios actuales",
+	"editTaskCompletionBetweenError": "El valor de finalización debe estar entre 0 y 100",
+	"editTaskCompletionHelp": "Valor de finalización de la tarea",
+	"editTaskCompletionLabel": "Terminación",
+	"editTaskDescriptionHelp": "Descripción de la tarea",
+	"editTaskDescriptionLabel": "Descripción",
+	"editTaskIdentifierHelp": "El identificador interno de la tarea (se genera automáticamente)",
+	"editTaskIdentifierLabel": "Identificador",
+	"editTaskNameHelp": "El nombre de la tarea",
+	"editTaskNameLabel": "Nombre",
+	"editTaskNameRequiredError": "El nombre es obligatorio",
+	"editTaskTagsHelp": "Las etiquetas de la tarea (separadas por coma)",
+	"editTaskTagsLabel": "Etiquetas",
+	"editTaskTagsMaxLengthError": "Solo puede haber 5 etiquetas como máximo",
+	"editTitleEditTask": "Editar tarea {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nueva tarea",
+	"listAddTaskButtonTitle": "Agregar una nueva tarea",
+	"listEditTaskButtonTitle": "Editar esta tarea",
+	"listEmptyTaskList": "La lista de tareas está vacía, ¿por qué no agregar una nueva?",
+	"listHeaderTaskId": "Tarea {{id}}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Lista de tareas",
+	"listRemoveTaskButtonTitle": "Quitar esta tarea"
+}
