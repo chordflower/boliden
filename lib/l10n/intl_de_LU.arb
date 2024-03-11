@@ -1,0 +1,44 @@
+{
+	"@@locale": "de-LU",
+	"editCancelButtonTitle": "Aktuelle Änderungen abbrechen",
+	"editSaveButtonTitle": "Speichert die aktuellen Änderungen",
+	"editTaskCompletionBetweenError": "Der Abschlusswert muss zwischen 0 und 100 liegen",
+	"editTaskCompletionHelp": "Wert für die Aufgabenerledigung",
+	"editTaskCompletionLabel": "Fertigstellung",
+	"editTaskDescriptionHelp": "Beschreibung der Aufgabe",
+	"editTaskDescriptionLabel": "Beschreibung",
+	"editTaskIdentifierHelp": "Der interne Identifikator der Aufgabe ( Er wird automatisch generiert )",
+	"editTaskIdentifierLabel": "Bezeichner",
+	"editTaskNameHelp": "Der Name der Aufgabe",
+	"editTaskNameLabel": "Name",
+	"editTaskNameRequiredError": "Der Name ist erforderlich",
+	"editTaskTagsHelp": "Die Tags der Aufgabe ( Durch Komma getrennt )",
+	"editTaskTagsLabel": "Schilder",
+	"editTaskTagsMaxLengthError": "Es können maximal 5 Tags vorhanden sein",
+	"editTitleEditTask": "Aufgabe bearbeiten {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Neue Aufgabe",
+	"listAddTaskButtonTitle": "Hinzufügen einer neuen Aufgabe",
+	"listEditTaskButtonTitle": "Diese Aufgabe bearbeiten",
+	"listEmptyTaskList": "Die Aufgabenliste ist leer, warum nicht eine neue hinzufügen?",
+	"listHeaderTaskId": "Aufgabe {{id}}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Aufgabenliste",
+	"listRemoveTaskButtonTitle": "Diese Aufgabe entfernen"
+}
