@@ -1,0 +1,44 @@
+{
+	"@@locale": "ro",
+	"editCancelButtonTitle": "Anularea modificărilor curente",
+	"editSaveButtonTitle": "Salvează modificările curente",
+	"editTaskCompletionBetweenError": "Valoarea de finalizare trebuie să fie între 0 și 100",
+	"editTaskCompletionHelp": "Valoarea de finalizare a activității",
+	"editTaskCompletionLabel": "Terminare",
+	"editTaskDescriptionHelp": "Descrierea sarcinii",
+	"editTaskDescriptionLabel": "Descriere",
+	"editTaskIdentifierHelp": "Identificatorul intern al sarcinii ( Este generat automat )",
+	"editTaskIdentifierLabel": "Identificator",
+	"editTaskNameHelp": "Numele sarcinii",
+	"editTaskNameLabel": "Nume",
+	"editTaskNameRequiredError": "Numele este obligatoriu",
+	"editTaskTagsHelp": "Etichetele sarcinii ( Separate prin virgulă )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Pot exista doar 5 etichete la maxim",
+	"editTitleEditTask": "Editare activitate {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Sarcină nouă",
+	"listAddTaskButtonTitle": "Adăugarea unei activități noi",
+	"listEditTaskButtonTitle": "Editați această activitate",
+	"listEmptyTaskList": "Lista de sarcini este goală, de ce să nu adăugați una nouă?",
+	"listHeaderTaskId": "Sarcină {{id}}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Lista de sarcini",
+	"listRemoveTaskButtonTitle": "Eliminați această sarcină"
+}
