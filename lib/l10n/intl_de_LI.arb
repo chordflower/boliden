@@ -40,5 +40,6 @@
 		}
 	},
 	"listListHeader": "Task list",
-	"listRemoveTaskButtonTitle": "Remove this task"
+	"listRemoveTaskButtonTitle": "Remove this task",
+	"title": "Kvintett"
 }
