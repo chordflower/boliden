@@ -1,0 +1,43 @@
+{
+	"editCancelButtonTitle": "Pašreizējo izmaiņu atcelšana",
+	"editSaveButtonTitle": "Saglabā pašreizējās izmaiņas",
+	"editTaskCompletionBetweenError": "Pabeigšanas vērtībai jābūt no 0 līdz 100",
+	"editTaskCompletionHelp": "Uzdevuma izpildes vērtība",
+	"editTaskCompletionLabel": "Pabeigšana",
+	"editTaskDescriptionHelp": "Uzdevuma apraksts",
+	"editTaskDescriptionLabel": "Apraksts: __________",
+	"editTaskIdentifierHelp": "Uzdevuma iekšējais identifikators ( Tas tiek ģenerēts automātiski )",
+	"editTaskIdentifierLabel": "Identifikators",
+	"editTaskNameHelp": "Uzdevuma nosaukums",
+	"editTaskNameLabel": "Vārds",
+	"editTaskNameRequiredError": "Nosaukums ir obligāts",
+	"editTaskTagsHelp": "Uzdevuma tagi ( Atdalīti ar komatu )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Maksimāli var būt tikai 5 tagi",
+	"editTitleEditTask": "Rediģēt uzdevumu {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Jauns uzdevums",
+	"listAddTaskButtonTitle": "Jauna uzdevuma pievienošana",
+	"listEditTaskButtonTitle": "Rediģēt šo uzdevumu",
+	"listEmptyTaskList": "Uzdevumu saraksts ir tukšs, kāpēc gan nepievienot jaunu?",
+	"listHeaderTaskId": "Uzdevums {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Uzdevumu saraksts",
+	"listRemoveTaskButtonTitle": "Noņemt šo uzdevumu"
+}

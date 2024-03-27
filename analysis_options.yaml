@@ -5,6 +5,3 @@ linter:
     avoid_print:
     prefer_const_constructors: false
     unnecessary_this: false
-analyzer:
-  exclude:
-    - lib/task/model/task.g.dart
