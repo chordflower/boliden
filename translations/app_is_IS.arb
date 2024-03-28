@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Merki verksins ( Aðskilin með kommu )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Það geta aðeins verið 5 merki að hámarki",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Verkið var stofnað!",
+	"editTaskEditSuccess": "Verkið var vistað!",
+	"editTaskSaveError": "Eyðublaðsgögnin eru ógild!",
 	"editTitleEditTask": "Breyta verki {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nýtt verk",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Verkinu var eytt!",
 	"listAddTaskButtonTitle": "Bæta við nýju verki",
 	"listEditTaskButtonTitle": "Breyta þessu verki",
 	"listEmptyTaskList": "Verkefnalistinn er tómur, hvers vegna ekki að bæta við nýjum?",
