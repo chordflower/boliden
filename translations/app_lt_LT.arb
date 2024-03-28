@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Užduoties žymės ( Atskirtos kableliu )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Gali būti tik 5 žymos",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Užduotis buvo sukurta!",
+	"editTaskEditSuccess": "Užduotis buvo išsaugota!",
+	"editTaskSaveError": "Formos duomenys neteisingi!",
 	"editTitleEditTask": "Redaguoti užduotį {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nauja užduotis",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Užduotis buvo ištrinta!",
 	"listAddTaskButtonTitle": "Naujos užduoties įtraukimas",
 	"listEditTaskButtonTitle": "Redaguoti šią užduotį",
 	"listEmptyTaskList": "Užduočių sąrašas tuščias, kodėl gi nepridėjus naujo?",
