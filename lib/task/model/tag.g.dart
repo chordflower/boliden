@@ -14,7 +14,6 @@ abstract class _$TagCWProxy {
   /// Tag(...).copyWith(id: 12, name: "My name")
   /// ````
   Tag call({
-    int? id,
     int? taskId,
     String? name,
   });
@@ -35,15 +34,10 @@ class _$TagCWProxyImpl implements _$TagCWProxy {
   /// Tag(...).copyWith(id: 12, name: "My name")
   /// ````
   Tag call({
-    Object? id = const $CopyWithPlaceholder(),
     Object? taskId = const $CopyWithPlaceholder(),
     Object? name = const $CopyWithPlaceholder(),
   }) {
     return Tag(
-      id: id == const $CopyWithPlaceholder()
-          ? _value.id
-          // ignore: cast_nullable_to_non_nullable
-          : id as int?,
       taskId: taskId == const $CopyWithPlaceholder() || taskId == null
           ? _value.taskId
           // ignore: cast_nullable_to_non_nullable

@@ -1,4 +1,5 @@
 import 'package:boliden/i10n/app_localizations.dart';
+import 'package:chopper/chopper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_redux/flutter_redux.dart';
@@ -22,7 +23,6 @@ class EditTaskPage extends StatefulWidget {
     'description': FormControl<String>(value: ''),
     'completion': FormControl<double>(value: 0, validators: [Validators.min(0), Validators.max(100)]),
     'tags': FormControl<String>(value: ''),
-    'order': FormControl<int>(value: 0, disabled: true),
     'createdDate': FormControl<DateTime>(value: DateTime.now(), disabled: true),
   });
 
@@ -46,9 +46,8 @@ class _EditTaskPageState extends State<EditTaskPage> {
               .toString()
               .split(',')
               .where((element) => element.isNotEmpty)
-              .map((e) => Tag(taskId: -1, name: e))
+              .map((e) => Tag(taskId: -1, name: e.strip()))
               .toList(),
-          order: form.control('order').value,
           createdDate: form.control('createdDate').value,
         )));
         ScaffoldMessenger.of(widgetContext).showSnackBar(
@@ -67,9 +66,8 @@ class _EditTaskPageState extends State<EditTaskPage> {
                 .toString()
                 .split(',')
                 .where((element) => element.isNotEmpty)
-                .map((e) => Tag(taskId: -1, name: e))
+                .map((e) => Tag(taskId: id, name: e.strip()))
                 .toList(),
-            order: form.control('order').value,
             createdDate: form.control('createdDate').value,
           ),
           id,
@@ -115,7 +113,6 @@ class _EditTaskPageState extends State<EditTaskPage> {
                 'description': task.description,
                 'completion': task.completion,
                 'tags': task.tags.map((e) => e.name).join(','),
-                'order': task.order,
                 'createdDate': task.createdDate,
               });
             }

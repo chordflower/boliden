@@ -10,9 +10,6 @@ class Task {
   /// The task [id]
   final int? id;
 
-  /// The [order] of the task
-  int order;
-
   /// The [name] of the task
   String name;
 
@@ -39,7 +36,6 @@ class Task {
   /// * [order] - 0
   Task({
     this.id,
-    this.order = 0,
     required this.name,
     this.description,
     required this.completion,
@@ -50,7 +46,7 @@ class Task {
 
   @override
   String toString() {
-    return '{id: $id, order: $order, name: $name, description: $description, completion: $completion, tags: $tags, createdDate: $createdDate, completionDate: $completionDate}';
+    return '{id: $id, name: $name, description: $description, completion: $completion, tags: $tags, createdDate: $createdDate, completionDate: $completionDate}';
   }
 
   @override
@@ -59,7 +55,6 @@ class Task {
         other is Task &&
             runtimeType == other.runtimeType &&
             id == other.id &&
-            order == other.order &&
             name == other.name &&
             description == other.description &&
             completion == other.completion &&
@@ -71,7 +66,6 @@ class Task {
   @override
   int get hashCode {
     return id.hashCode ^
-        order.hashCode ^
         name.hashCode ^
         description.hashCode ^
         completion.hashCode ^

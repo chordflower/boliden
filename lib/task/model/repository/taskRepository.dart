@@ -18,21 +18,17 @@ class TaskRepository extends DatabaseAccessor<AppDatabase>
   @override
   Future<model.Task> save(model.Task task) {
     return transaction(() async {
-      print(task);
-
+      print('Saving task with name ${task.name}');
       var generated = await into(taskTable).insertOnConflictUpdate(
         TaskTableCompanion(
           id: Value.absentIfNull(task.id),
           name: Value(task.name),
           description: Value(task.description),
-          order: Value(task.order),
           completion: Value(task.completion),
           createdDate: Value(task.createdDate.toIso8601String()),
           completionDate: Value.absentIfNull(task.completionDate?.toIso8601String()),
         ),
       );
-
-      print(generated);
 
       var taskId = task.id ?? generated;
 
@@ -46,24 +42,19 @@ class TaskRepository extends DatabaseAccessor<AppDatabase>
       );
 
       for (var tag in task.tags) {
-        var tagId = await into(tagTable).insertOnConflictUpdate(
+        await into(tagTable).insertOnConflictUpdate(
           TagTableCompanion(
-            id: Value.absentIfNull(tag.id),
             taskId: Value(taskId),
             name: Value(tag.name),
           ),
         );
-
         result.tags.add(
           tag.copyWith(
-            id: tag.id ?? tagId,
             taskId: taskId,
           ),
         );
+        print('Adding tag with name ${tag.name}');
       }
-
-      print(result);
-
       return result;
     });
   }
@@ -72,6 +63,7 @@ class TaskRepository extends DatabaseAccessor<AppDatabase>
   @override
   Future<int> remove(int id) {
     return transaction(() async {
+      print('Deleting task with id ${id}');
       var deleteStatement = delete(taskTable)..where((tbl) => tbl.id.equals(id));
       return await deleteStatement.go();
     });
@@ -89,17 +81,17 @@ class TaskRepository extends DatabaseAccessor<AppDatabase>
                 completion: res.completion,
                 createdDate: DateTime.parse(res.createdDate),
                 completionDate: DateTime.tryParse(res.completionDate ?? ''),
-                order: res.order,
                 tags: [],
               ))
           .get();
       for (var task in tasks) {
+        print('Getting task named ${task.name}');
         var sel = await select(tagTable)
           ..where((tbl) => tbl.taskId.equals(task.id ?? 0));
 
         for (var tag in (await sel.get())) {
+          print('Adding tag ${tag.name} to task ${task.name}');
           task.tags.add(model.Tag(
-            id: tag.id,
             taskId: tag.taskId,
             name: tag.name,
           ));
@@ -123,18 +115,18 @@ class TaskRepository extends DatabaseAccessor<AppDatabase>
                 completion: res.completion,
                 createdDate: DateTime.parse(res.createdDate),
                 completionDate: DateTime.tryParse(res.completionDate ?? ''),
-                order: res.order,
                 tags: [],
               ))
           .getSingleOrNull();
 
       if (null != task) {
+        print('Getting task named ${task.name}');
         var sel = await select(tagTable)
           ..where((tbl) => tbl.taskId.equals(task.id ?? 0));
 
         for (var tag in (await sel.get())) {
+          print('Adding tag ${tag.name} to task ${task.name}');
           task.tags.add(model.Tag(
-            id: tag.id,
             taskId: tag.taskId,
             name: tag.name,
           ));

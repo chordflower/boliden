@@ -14,7 +14,6 @@ abstract class _$ImmutableTagCWProxy {
   /// ImmutableTag(...).copyWith(id: 12, name: "My name")
   /// ````
   ImmutableTag call({
-    int? id,
     int? taskId,
     String? name,
   });
@@ -35,15 +34,10 @@ class _$ImmutableTagCWProxyImpl implements _$ImmutableTagCWProxy {
   /// ImmutableTag(...).copyWith(id: 12, name: "My name")
   /// ````
   ImmutableTag call({
-    Object? id = const $CopyWithPlaceholder(),
     Object? taskId = const $CopyWithPlaceholder(),
     Object? name = const $CopyWithPlaceholder(),
   }) {
     return ImmutableTag(
-      id: id == const $CopyWithPlaceholder()
-          ? _value.id
-          // ignore: cast_nullable_to_non_nullable
-          : id as int?,
       taskId: taskId == const $CopyWithPlaceholder() || taskId == null
           ? _value.taskId
           // ignore: cast_nullable_to_non_nullable
@@ -71,7 +65,6 @@ abstract class _$ImmutableTaskCWProxy {
   /// ````
   ImmutableTask call({
     int? id,
-    int? order,
     String? name,
     String? description,
     double? completion,
@@ -97,7 +90,6 @@ class _$ImmutableTaskCWProxyImpl implements _$ImmutableTaskCWProxy {
   /// ````
   ImmutableTask call({
     Object? id = const $CopyWithPlaceholder(),
-    Object? order = const $CopyWithPlaceholder(),
     Object? name = const $CopyWithPlaceholder(),
     Object? description = const $CopyWithPlaceholder(),
     Object? completion = const $CopyWithPlaceholder(),
@@ -110,10 +102,6 @@ class _$ImmutableTaskCWProxyImpl implements _$ImmutableTaskCWProxy {
           ? _value.id
           // ignore: cast_nullable_to_non_nullable
           : id as int?,
-      order: order == const $CopyWithPlaceholder() || order == null
-          ? _value.order
-          // ignore: cast_nullable_to_non_nullable
-          : order as int,
       name: name == const $CopyWithPlaceholder() || name == null
           ? _value.name
           // ignore: cast_nullable_to_non_nullable

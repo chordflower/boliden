@@ -20,7 +20,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase() : super(_openConnection());
 
   @override
-  int get schemaVersion => 1;
+  int get schemaVersion => 2;
 
   @override
   @disposeMethod
@@ -33,10 +33,9 @@ class AppDatabase extends _$AppDatabase {
 LazyDatabase _openConnection() {
   // the LazyDatabase util lets us find the right location for the file async.
   return LazyDatabase(() async {
-    // put the database file, called db.sqlite here, into the documents folder
-    // for your app.
-    final dbFolder = await getApplicationDocumentsDirectory();
-    final file = File(path.join(dbFolder.path, 'db.sqlite'));
+    final dbFolder = await getApplicationSupportDirectory();
+    final file = File(path.join(dbFolder.path, 'data', 'tasks.db'));
+    print(file.path);
 
     // Also work around limitations on old Android versions
     if (Platform.isAndroid) {

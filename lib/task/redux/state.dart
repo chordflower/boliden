@@ -10,25 +10,20 @@ part 'state.g.dart';
 @immutable
 @CopyWith(skipFields: true)
 class ImmutableTag {
-  /// The tag [id]
-  final int? id;
-
   /// The task this tag belongs to
   final int taskId;
 
   /// The [name] of the tag
   final String name;
 
-  ImmutableTag({this.id = -1, required this.taskId, required this.name});
+  ImmutableTag({required this.taskId, required this.name});
 
   ImmutableTag.fromTag(Tag tag)
-      : this.id = tag.id,
-        this.name = tag.name,
+      : this.name = tag.name,
         this.taskId = tag.taskId;
 
   Tag toTag() {
     return Tag(
-      id: this.id,
       name: this.name,
       taskId: this.taskId,
     );
@@ -36,22 +31,18 @@ class ImmutableTag {
 
   @override
   String toString() {
-    return '{id: $id, taskId: $taskId, name: $name}';
+    return '{taskId: $taskId, name: $name}';
   }
 
   @override
   bool operator ==(Object other) {
     return identical(this, other) ||
-        other is ImmutableTag &&
-            runtimeType == other.runtimeType &&
-            id == other.id &&
-            taskId == other.taskId &&
-            name == other.name;
+        other is ImmutableTag && runtimeType == other.runtimeType && taskId == other.taskId && name == other.name;
   }
 
   @override
   int get hashCode {
-    return id.hashCode ^ taskId.hashCode ^ name.hashCode;
+    return taskId.hashCode ^ name.hashCode;
   }
 }
 
@@ -60,9 +51,6 @@ class ImmutableTag {
 class ImmutableTask {
   /// The task [id]
   final int? id;
-
-  /// The [order] of the task
-  final int order;
 
   /// The [name] of the task
   final String name;
@@ -83,10 +71,9 @@ class ImmutableTask {
   final DateTime? completionDate;
 
   ImmutableTask({
-    this.id = -1,
-    this.order = 0,
+    this.id,
     this.name = '',
-    this.description = '',
+    this.description,
     this.completion = 0.0,
     this.tags = const IList.empty(),
     createdDate,
@@ -95,7 +82,6 @@ class ImmutableTask {
 
   ImmutableTask.fromTask(Task task)
       : this.id = task.id,
-        this.order = task.order,
         this.name = task.name,
         this.description = task.description,
         this.completion = task.completion,
@@ -106,7 +92,6 @@ class ImmutableTask {
   Task toTask() {
     return Task(
       id: this.id,
-      order: this.order,
       name: this.name,
       description: this.description,
       completion: this.completion,
@@ -118,7 +103,7 @@ class ImmutableTask {
 
   @override
   String toString() {
-    return '{id: $id, order: $order, name: $name, description: $description, completion: $completion, tags: $tags, createdDate: $createdDate, completionDate: $completionDate}';
+    return '{id: $id, name: $name, description: $description, completion: $completion, tags: $tags, createdDate: $createdDate, completionDate: $completionDate}';
   }
 
   @override
@@ -127,7 +112,6 @@ class ImmutableTask {
         other is ImmutableTask &&
             runtimeType == other.runtimeType &&
             id == other.id &&
-            order == other.order &&
             name == other.name &&
             description == other.description &&
             completion == other.completion &&
@@ -139,7 +123,6 @@ class ImmutableTask {
   @override
   int get hashCode {
     return id.hashCode ^
-        order.hashCode ^
         name.hashCode ^
         description.hashCode ^
         completion.hashCode ^

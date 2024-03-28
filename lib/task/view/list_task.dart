@@ -87,7 +87,7 @@ class TaskListItem extends StatelessWidget {
   const TaskListItem({required this.task, super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext widgetContext) {
     return Container(
       color: Colors.grey.shade800,
       padding: const EdgeInsets.all(20),
@@ -96,13 +96,13 @@ class TaskListItem extends StatelessWidget {
         children: [
           Row(
             children: [
-              Expanded(child: Text(AppLocalizations.of(context)?.listHeaderTaskId(task.id ?? -1) ?? '')),
+              Expanded(child: Text(AppLocalizations.of(widgetContext)?.listHeaderTaskId(task.id ?? -1) ?? '')),
               IconButton(
                 icon: const Icon(Icons.edit),
-                tooltip: AppLocalizations.of(context)?.listEditTaskButtonTitle ?? '',
+                tooltip: AppLocalizations.of(widgetContext)?.listEditTaskButtonTitle ?? '',
                 onPressed: () {
                   Navigator.push(
-                    context,
+                    widgetContext,
                     MaterialPageRoute(builder: (context) => EditTaskPage(id: task.id)),
                   );
                 },
@@ -114,6 +114,9 @@ class TaskListItem extends StatelessWidget {
                   tooltip: AppLocalizations.of(context)?.listRemoveTaskButtonTitle ?? '',
                   onPressed: () {
                     store.dispatch(RemoveTaskAction(id: task.id ?? -1));
+                    ScaffoldMessenger.of(widgetContext).showSnackBar(
+                      SnackBar(content: Text('The task was deleted!')),
+                    );
                   },
                   color: Colors.amber,
                 ),

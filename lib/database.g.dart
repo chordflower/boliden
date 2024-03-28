@@ -17,11 +17,6 @@ class $TaskTableTable extends TaskTable with TableInfo<$TaskTableTable, Task> {
       requiredDuringInsert: false,
       defaultConstraints:
           GeneratedColumn.constraintIsAlways('PRIMARY KEY AUTOINCREMENT'));
-  static const VerificationMeta _orderMeta = const VerificationMeta('order');
-  @override
-  late final GeneratedColumn<int> order = GeneratedColumn<int>(
-      'order', aliasedName, false,
-      type: DriftSqlType.int, requiredDuringInsert: true);
   static const VerificationMeta _nameMeta = const VerificationMeta('name');
   @override
   late final GeneratedColumn<String> name = GeneratedColumn<String>(
@@ -56,7 +51,7 @@ class $TaskTableTable extends TaskTable with TableInfo<$TaskTableTable, Task> {
       type: DriftSqlType.string, requiredDuringInsert: false);
   @override
   List<GeneratedColumn> get $columns =>
-      [id, order, name, description, completion, createdDate, completionDate];
+      [id, name, description, completion, createdDate, completionDate];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
@@ -69,12 +64,6 @@ class $TaskTableTable extends TaskTable with TableInfo<$TaskTableTable, Task> {
     final data = instance.toColumns(true);
     if (data.containsKey('id')) {
       context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
-    }
-    if (data.containsKey('order')) {
-      context.handle(
-          _orderMeta, order.isAcceptableOrUnknown(data['order']!, _orderMeta));
-    } else if (isInserting) {
-      context.missing(_orderMeta);
     }
     if (data.containsKey('name')) {
       context.handle(
@@ -115,7 +104,6 @@ class $TaskTableTable extends TaskTable with TableInfo<$TaskTableTable, Task> {
   Set<GeneratedColumn> get $primaryKey => {id};
   @override
   List<Set<GeneratedColumn>> get uniqueKeys => [
-        {id, order},
         {id, name},
       ];
   @override
@@ -124,8 +112,6 @@ class $TaskTableTable extends TaskTable with TableInfo<$TaskTableTable, Task> {
     return Task(
       id: attachedDatabase.typeMapping
           .read(DriftSqlType.int, data['${effectivePrefix}id'])!,
-      order: attachedDatabase.typeMapping
-          .read(DriftSqlType.int, data['${effectivePrefix}order'])!,
       name: attachedDatabase.typeMapping
           .read(DriftSqlType.string, data['${effectivePrefix}name'])!,
       description: attachedDatabase.typeMapping
@@ -149,9 +135,6 @@ class Task extends DataClass implements Insertable<Task> {
   /// The task [id] field
   final int id;
 
-  /// The task [order] field
-  final int order;
-
   /// The task [name] field
   final String name;
 
@@ -168,7 +151,6 @@ class Task extends DataClass implements Insertable<Task> {
   final String? completionDate;
   const Task(
       {required this.id,
-      required this.order,
       required this.name,
       this.description,
       required this.completion,
@@ -178,7 +160,6 @@ class Task extends DataClass implements Insertable<Task> {
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
     map['id'] = Variable<int>(id);
-    map['order'] = Variable<int>(order);
     map['name'] = Variable<String>(name);
     if (!nullToAbsent || description != null) {
       map['description'] = Variable<String>(description);
@@ -194,7 +175,6 @@ class Task extends DataClass implements Insertable<Task> {
   TaskTableCompanion toCompanion(bool nullToAbsent) {
     return TaskTableCompanion(
       id: Value(id),
-      order: Value(order),
       name: Value(name),
       description: description == null && nullToAbsent
           ? const Value.absent()
@@ -212,7 +192,6 @@ class Task extends DataClass implements Insertable<Task> {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return Task(
       id: serializer.fromJson<int>(json['id']),
-      order: serializer.fromJson<int>(json['order']),
       name: serializer.fromJson<String>(json['name']),
       description: serializer.fromJson<String?>(json['description']),
       completion: serializer.fromJson<double>(json['completion']),
@@ -225,7 +204,6 @@ class Task extends DataClass implements Insertable<Task> {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return <String, dynamic>{
       'id': serializer.toJson<int>(id),
-      'order': serializer.toJson<int>(order),
       'name': serializer.toJson<String>(name),
       'description': serializer.toJson<String?>(description),
       'completion': serializer.toJson<double>(completion),
@@ -236,7 +214,6 @@ class Task extends DataClass implements Insertable<Task> {
 
   Task copyWith(
           {int? id,
-          int? order,
           String? name,
           Value<String?> description = const Value.absent(),
           double? completion,
@@ -244,7 +221,6 @@ class Task extends DataClass implements Insertable<Task> {
           Value<String?> completionDate = const Value.absent()}) =>
       Task(
         id: id ?? this.id,
-        order: order ?? this.order,
         name: name ?? this.name,
         description: description.present ? description.value : this.description,
         completion: completion ?? this.completion,
@@ -256,7 +232,6 @@ class Task extends DataClass implements Insertable<Task> {
   String toString() {
     return (StringBuffer('Task(')
           ..write('id: $id, ')
-          ..write('order: $order, ')
           ..write('name: $name, ')
           ..write('description: $description, ')
           ..write('completion: $completion, ')
@@ -268,13 +243,12 @@ class Task extends DataClass implements Insertable<Task> {
 
   @override
   int get hashCode => Object.hash(
-      id, order, name, description, completion, createdDate, completionDate);
+      id, name, description, completion, createdDate, completionDate);
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
       (other is Task &&
           other.id == this.id &&
-          other.order == this.order &&
           other.name == this.name &&
           other.description == this.description &&
           other.completion == this.completion &&
@@ -284,7 +258,6 @@ class Task extends DataClass implements Insertable<Task> {
 
 class TaskTableCompanion extends UpdateCompanion<Task> {
   final Value<int> id;
-  final Value<int> order;
   final Value<String> name;
   final Value<String?> description;
   final Value<double> completion;
@@ -292,7 +265,6 @@ class TaskTableCompanion extends UpdateCompanion<Task> {
   final Value<String?> completionDate;
   const TaskTableCompanion({
     this.id = const Value.absent(),
-    this.order = const Value.absent(),
     this.name = const Value.absent(),
     this.description = const Value.absent(),
     this.completion = const Value.absent(),
@@ -301,18 +273,15 @@ class TaskTableCompanion extends UpdateCompanion<Task> {
   });
   TaskTableCompanion.insert({
     this.id = const Value.absent(),
-    required int order,
     required String name,
     this.description = const Value.absent(),
     this.completion = const Value.absent(),
     required String createdDate,
     this.completionDate = const Value.absent(),
-  })  : order = Value(order),
-        name = Value(name),
+  })  : name = Value(name),
         createdDate = Value(createdDate);
   static Insertable<Task> custom({
     Expression<int>? id,
-    Expression<int>? order,
     Expression<String>? name,
     Expression<String>? description,
     Expression<double>? completion,
@@ -321,7 +290,6 @@ class TaskTableCompanion extends UpdateCompanion<Task> {
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
-      if (order != null) 'order': order,
       if (name != null) 'name': name,
       if (description != null) 'description': description,
       if (completion != null) 'completion': completion,
@@ -332,7 +300,6 @@ class TaskTableCompanion extends UpdateCompanion<Task> {
 
   TaskTableCompanion copyWith(
       {Value<int>? id,
-      Value<int>? order,
       Value<String>? name,
       Value<String?>? description,
       Value<double>? completion,
@@ -340,7 +307,6 @@ class TaskTableCompanion extends UpdateCompanion<Task> {
       Value<String?>? completionDate}) {
     return TaskTableCompanion(
       id: id ?? this.id,
-      order: order ?? this.order,
       name: name ?? this.name,
       description: description ?? this.description,
       completion: completion ?? this.completion,
@@ -354,9 +320,6 @@ class TaskTableCompanion extends UpdateCompanion<Task> {
     final map = <String, Expression>{};
     if (id.present) {
       map['id'] = Variable<int>(id.value);
-    }
-    if (order.present) {
-      map['order'] = Variable<int>(order.value);
     }
     if (name.present) {
       map['name'] = Variable<String>(name.value);
@@ -380,7 +343,6 @@ class TaskTableCompanion extends UpdateCompanion<Task> {
   String toString() {
     return (StringBuffer('TaskTableCompanion(')
           ..write('id: $id, ')
-          ..write('order: $order, ')
           ..write('name: $name, ')
           ..write('description: $description, ')
           ..write('completion: $completion, ')
@@ -396,15 +358,6 @@ class $TagTableTable extends TagTable with TableInfo<$TagTableTable, Tag> {
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
   $TagTableTable(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _idMeta = const VerificationMeta('id');
-  @override
-  late final GeneratedColumn<int> id = GeneratedColumn<int>(
-      'id', aliasedName, false,
-      hasAutoIncrement: true,
-      type: DriftSqlType.int,
-      requiredDuringInsert: false,
-      defaultConstraints:
-          GeneratedColumn.constraintIsAlways('PRIMARY KEY AUTOINCREMENT'));
   static const VerificationMeta _taskIdMeta = const VerificationMeta('taskId');
   @override
   late final GeneratedColumn<int> taskId = GeneratedColumn<int>(
@@ -419,7 +372,7 @@ class $TagTableTable extends TagTable with TableInfo<$TagTableTable, Tag> {
       'name', aliasedName, false,
       type: DriftSqlType.string, requiredDuringInsert: true);
   @override
-  List<GeneratedColumn> get $columns => [id, taskId, name];
+  List<GeneratedColumn> get $columns => [taskId, name];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
@@ -430,9 +383,6 @@ class $TagTableTable extends TagTable with TableInfo<$TagTableTable, Tag> {
       {bool isInserting = false}) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
-    if (data.containsKey('id')) {
-      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
-    }
     if (data.containsKey('task_id')) {
       context.handle(_taskIdMeta,
           taskId.isAcceptableOrUnknown(data['task_id']!, _taskIdMeta));
@@ -449,13 +399,11 @@ class $TagTableTable extends TagTable with TableInfo<$TagTableTable, Tag> {
   }
 
   @override
-  Set<GeneratedColumn> get $primaryKey => {id};
+  Set<GeneratedColumn> get $primaryKey => {taskId, name};
   @override
   Tag map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
     return Tag(
-      id: attachedDatabase.typeMapping
-          .read(DriftSqlType.int, data['${effectivePrefix}id'])!,
       taskId: attachedDatabase.typeMapping
           .read(DriftSqlType.int, data['${effectivePrefix}task_id'])!,
       name: attachedDatabase.typeMapping
@@ -470,19 +418,15 @@ class $TagTableTable extends TagTable with TableInfo<$TagTableTable, Tag> {
 }
 
 class Tag extends DataClass implements Insertable<Tag> {
-  /// The tag [id] field
-  final int id;
-
   /// The tag [taskId] field
   final int taskId;
 
   /// The tag [name] field
   final String name;
-  const Tag({required this.id, required this.taskId, required this.name});
+  const Tag({required this.taskId, required this.name});
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
-    map['id'] = Variable<int>(id);
     map['task_id'] = Variable<int>(taskId);
     map['name'] = Variable<String>(name);
     return map;
@@ -490,7 +434,6 @@ class Tag extends DataClass implements Insertable<Tag> {
 
   TagTableCompanion toCompanion(bool nullToAbsent) {
     return TagTableCompanion(
-      id: Value(id),
       taskId: Value(taskId),
       name: Value(name),
     );
@@ -500,7 +443,6 @@ class Tag extends DataClass implements Insertable<Tag> {
       {ValueSerializer? serializer}) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return Tag(
-      id: serializer.fromJson<int>(json['id']),
       taskId: serializer.fromJson<int>(json['taskId']),
       name: serializer.fromJson<String>(json['name']),
     );
@@ -509,21 +451,18 @@ class Tag extends DataClass implements Insertable<Tag> {
   Map<String, dynamic> toJson({ValueSerializer? serializer}) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return <String, dynamic>{
-      'id': serializer.toJson<int>(id),
       'taskId': serializer.toJson<int>(taskId),
       'name': serializer.toJson<String>(name),
     };
   }
 
-  Tag copyWith({int? id, int? taskId, String? name}) => Tag(
-        id: id ?? this.id,
+  Tag copyWith({int? taskId, String? name}) => Tag(
         taskId: taskId ?? this.taskId,
         name: name ?? this.name,
       );
   @override
   String toString() {
     return (StringBuffer('Tag(')
-          ..write('id: $id, ')
           ..write('taskId: $taskId, ')
           ..write('name: $name')
           ..write(')'))
@@ -531,63 +470,60 @@ class Tag extends DataClass implements Insertable<Tag> {
   }
 
   @override
-  int get hashCode => Object.hash(id, taskId, name);
+  int get hashCode => Object.hash(taskId, name);
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      (other is Tag &&
-          other.id == this.id &&
-          other.taskId == this.taskId &&
-          other.name == this.name);
+      (other is Tag && other.taskId == this.taskId && other.name == this.name);
 }
 
 class TagTableCompanion extends UpdateCompanion<Tag> {
-  final Value<int> id;
   final Value<int> taskId;
   final Value<String> name;
+  final Value<int> rowid;
   const TagTableCompanion({
-    this.id = const Value.absent(),
     this.taskId = const Value.absent(),
     this.name = const Value.absent(),
+    this.rowid = const Value.absent(),
   });
   TagTableCompanion.insert({
-    this.id = const Value.absent(),
     required int taskId,
     required String name,
+    this.rowid = const Value.absent(),
   })  : taskId = Value(taskId),
         name = Value(name);
   static Insertable<Tag> custom({
-    Expression<int>? id,
     Expression<int>? taskId,
     Expression<String>? name,
+    Expression<int>? rowid,
   }) {
     return RawValuesInsertable({
-      if (id != null) 'id': id,
       if (taskId != null) 'task_id': taskId,
       if (name != null) 'name': name,
+      if (rowid != null) 'rowid': rowid,
     });
   }
 
   TagTableCompanion copyWith(
-      {Value<int>? id, Value<int>? taskId, Value<String>? name}) {
+      {Value<int>? taskId, Value<String>? name, Value<int>? rowid}) {
     return TagTableCompanion(
-      id: id ?? this.id,
       taskId: taskId ?? this.taskId,
       name: name ?? this.name,
+      rowid: rowid ?? this.rowid,
     );
   }
 
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
-    if (id.present) {
-      map['id'] = Variable<int>(id.value);
-    }
     if (taskId.present) {
       map['task_id'] = Variable<int>(taskId.value);
     }
     if (name.present) {
       map['name'] = Variable<String>(name.value);
+    }
+    if (rowid.present) {
+      map['rowid'] = Variable<int>(rowid.value);
     }
     return map;
   }
@@ -595,9 +531,9 @@ class TagTableCompanion extends UpdateCompanion<Tag> {
   @override
   String toString() {
     return (StringBuffer('TagTableCompanion(')
-          ..write('id: $id, ')
           ..write('taskId: $taskId, ')
-          ..write('name: $name')
+          ..write('name: $name, ')
+          ..write('rowid: $rowid')
           ..write(')'))
         .toString();
   }

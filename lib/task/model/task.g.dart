@@ -15,7 +15,6 @@ abstract class _$TaskCWProxy {
   /// ````
   Task call({
     int? id,
-    int? order,
     String? name,
     String? description,
     double? completion,
@@ -41,7 +40,6 @@ class _$TaskCWProxyImpl implements _$TaskCWProxy {
   /// ````
   Task call({
     Object? id = const $CopyWithPlaceholder(),
-    Object? order = const $CopyWithPlaceholder(),
     Object? name = const $CopyWithPlaceholder(),
     Object? description = const $CopyWithPlaceholder(),
     Object? completion = const $CopyWithPlaceholder(),
@@ -54,10 +52,6 @@ class _$TaskCWProxyImpl implements _$TaskCWProxy {
           ? _value.id
           // ignore: cast_nullable_to_non_nullable
           : id as int?,
-      order: order == const $CopyWithPlaceholder() || order == null
-          ? _value.order
-          // ignore: cast_nullable_to_non_nullable
-          : order as int,
       name: name == const $CopyWithPlaceholder() || name == null
           ? _value.name
           // ignore: cast_nullable_to_non_nullable
