@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Kodene for oppgaven ( atskilt med komma )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Det kan bare være maksimalt 5 tagger",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Oppgaven ble opprettet!",
+	"editTaskEditSuccess": "Oppgaven ble reddet!",
+	"editTaskSaveError": "Skjemadataene er ugyldige!",
 	"editTitleEditTask": "Rediger oppgave {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Ny oppgave",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Oppgaven ble slettet!",
 	"listAddTaskButtonTitle": "Legge til en ny aktivitet",
 	"listEditTaskButtonTitle": "Rediger denne oppgaven",
 	"listEmptyTaskList": "Oppgavelisten er tom, hvorfor ikke legge til en ny?",
