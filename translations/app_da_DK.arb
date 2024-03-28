@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Annuller aktuelle ændringer",
+	"editSaveButtonTitle": "Gemmer de aktuelle ændringer",
+	"editTaskCompletionBetweenError": "Færdiggørelsesværdien skal være mellem 0 og 100",
+	"editTaskCompletionHelp": "Værdi for opgavefuldførelse",
+	"editTaskCompletionLabel": "Færdiggørelse",
+	"editTaskDescriptionHelp": "Beskrivelse af opgaven",
+	"editTaskDescriptionLabel": "Beskrivelse",
+	"editTaskIdentifierHelp": "Opgavens interne identifikator ( Den genereres automatisk )",
+	"editTaskIdentifierLabel": "Identifikator",
+	"editTaskNameHelp": "Navnet på opgaven",
+	"editTaskNameLabel": "Navn",
+	"editTaskNameRequiredError": "Navnet er påkrævet",
+	"editTaskTagsHelp": "Opgavens tags ( Adskilt af komma )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Der kan kun maksimalt være 5 tags",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Rediger opgave {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Ny opgave",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Tilføje en ny opgave",
+	"listEditTaskButtonTitle": "Rediger denne opgave",
+	"listEmptyTaskList": "Opgavelisten er tom, hvorfor ikke tilføje en ny?",
+	"listHeaderTaskId": "Opgave {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Opgaveliste",
+	"listRemoveTaskButtonTitle": "Fjern denne opgave"
+}
