@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Dabartinių keitimų atšaukimas",
+	"editSaveButtonTitle": "Įrašo dabartinius pakeitimus",
+	"editTaskCompletionBetweenError": "Užbaigimo vertė turi būti nuo 0 iki 100",
+	"editTaskCompletionHelp": "Užduoties užbaigimo reikšmė",
+	"editTaskCompletionLabel": "Užbaigimo",
+	"editTaskDescriptionHelp": "Užduoties aprašymas",
+	"editTaskDescriptionLabel": "Aprašymas",
+	"editTaskIdentifierHelp": "Užduoties vidinis identifikatorius ( Jis sugeneruojamas automatiškai )",
+	"editTaskIdentifierLabel": "Identifikatorius",
+	"editTaskNameHelp": "Užduoties pavadinimas",
+	"editTaskNameLabel": "Vardas, pavadinimas",
+	"editTaskNameRequiredError": "Vardas yra būtinas",
+	"editTaskTagsHelp": "Užduoties žymės ( Atskirtos kableliu )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Gali būti tik 5 žymos",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Redaguoti užduotį {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nauja užduotis",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Naujos užduoties įtraukimas",
+	"listEditTaskButtonTitle": "Redaguoti šią užduotį",
+	"listEmptyTaskList": "Užduočių sąrašas tuščias, kodėl gi nepridėjus naujo?",
+	"listHeaderTaskId": "Užduotis {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Užduočių sąrašas",
+	"listRemoveTaskButtonTitle": "Pašalinkite šią užduotį"
+}
