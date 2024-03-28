@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Zrušení aktuálních změn",
+	"editSaveButtonTitle": "Uloží aktuální změny",
+	"editTaskCompletionBetweenError": "Hodnota dokončení musí být mezi 0 a 100",
+	"editTaskCompletionHelp": "Hodnota dokončení úkolu",
+	"editTaskCompletionLabel": "Dokončení",
+	"editTaskDescriptionHelp": "Popis úkolu",
+	"editTaskDescriptionLabel": "Popis",
+	"editTaskIdentifierHelp": "Interní identifikátor úkolu ( je generován automaticky )",
+	"editTaskIdentifierLabel": "Identifikátor",
+	"editTaskNameHelp": "Název úkolu",
+	"editTaskNameLabel": "Jméno",
+	"editTaskNameRequiredError": "Jméno je povinné",
+	"editTaskTagsHelp": "Značky úkolu ( oddělené čárkou )",
+	"editTaskTagsLabel": "Visačky",
+	"editTaskTagsMaxLengthError": "Značek může být maximálně 5",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Upravit úkol {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nový úkol",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Přidání nového úkolu",
+	"listEditTaskButtonTitle": "Upravit tento úkol",
+	"listEmptyTaskList": "Seznam úkolů je prázdný, proč nepřidat nový?",
+	"listHeaderTaskId": "Úkol {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Seznam úkolů",
+	"listRemoveTaskButtonTitle": "Odebrat tuto úlohu"
+}
