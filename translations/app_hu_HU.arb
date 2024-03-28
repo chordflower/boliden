@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "A feladat címkéi (vesszővel elválasztva)",
 	"editTaskTagsLabel": "Címkék",
 	"editTaskTagsMaxLengthError": "Legfeljebb 5 címke lehet",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "A feladat létrejött!",
+	"editTaskEditSuccess": "A feladat mentésre került!",
+	"editTaskSaveError": "Az űrlap adatai érvénytelenek!",
 	"editTitleEditTask": "Feladat szerkesztése {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Új feladat",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "A feladat törölve lett!",
 	"listAddTaskButtonTitle": "Új feladat hozzáadása",
 	"listEditTaskButtonTitle": "A feladat szerkesztése",
 	"listEmptyTaskList": "A feladatlista üres, miért nem ad hozzá újat?",
