@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Скасування поточних змін",
+	"editSaveButtonTitle": "Зберігає поточні зміни",
+	"editTaskCompletionBetweenError": "Значення завершення має бути від 0 до 100",
+	"editTaskCompletionHelp": "Значення виконання завдань",
+	"editTaskCompletionLabel": "Завершення",
+	"editTaskDescriptionHelp": "Опис завдання",
+	"editTaskDescriptionLabel": "Опис",
+	"editTaskIdentifierHelp": "Внутрішній ідентифікатор завдання ( Генерується автоматично)",
+	"editTaskIdentifierLabel": "Ідентифікатор",
+	"editTaskNameHelp": "Назва завдання",
+	"editTaskNameLabel": "Ім&apos;я",
+	"editTaskNameRequiredError": "Ім'я обов'язкове",
+	"editTaskTagsHelp": "Теги завдання ( Через кому )",
+	"editTaskTagsLabel": "Мітки",
+	"editTaskTagsMaxLengthError": "Максимум може бути всього 5 тегів",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Редагувати завдання {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Нове завдання",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Як додати нове завдання",
+	"listEditTaskButtonTitle": "Відредагуйте це завдання",
+	"listEmptyTaskList": "Список завдань порожній, чому б не додати новий?",
+	"listHeaderTaskId": "Завдання {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Список завдань",
+	"listRemoveTaskButtonTitle": "Вилучити це завдання"
+}
