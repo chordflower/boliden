@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Теги завдання ( Через кому )",
 	"editTaskTagsLabel": "Мітки",
 	"editTaskTagsMaxLengthError": "Максимум може бути всього 5 тегів",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Завдання створено!",
+	"editTaskEditSuccess": "Завдання врятовано!",
+	"editTaskSaveError": "Дані форми недійсні!",
 	"editTitleEditTask": "Редагувати завдання {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Нове завдання",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Завдання видалено!",
 	"listAddTaskButtonTitle": "Як додати нове завдання",
 	"listEditTaskButtonTitle": "Відредагуйте це завдання",
 	"listEmptyTaskList": "Список завдань порожній, чому б не додати новий?",
