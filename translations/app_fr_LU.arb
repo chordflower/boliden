@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Les balises de la tâche ( Séparées par une virgule )",
 	"editTaskTagsLabel": "Étiquettes",
 	"editTaskTagsMaxLengthError": "Il ne peut y avoir que 5 balises au maximum",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "La tâche était créée !",
+	"editTaskEditSuccess": "La tâche était sauvée !",
+	"editTaskSaveError": "Les données du formulaire ne sont pas valides !",
 	"editTitleEditTask": "Modifier la tâche {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nouvelle tâche",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "La tâche a été supprimée !",
 	"listAddTaskButtonTitle": "Ajouter une nouvelle tâche",
 	"listEditTaskButtonTitle": "Modifier cette tâche",
 	"listEmptyTaskList": "La liste des tâches est vide, pourquoi ne pas en ajouter une nouvelle ?",
