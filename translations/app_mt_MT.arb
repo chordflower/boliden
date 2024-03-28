@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "It-tags tal-kompitu ( Separati bil-virgola )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Jista 'jkun hemm biss 5 tags sa massimu",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Il-kompitu nħoloq!",
+	"editTaskEditSuccess": "Il-kompitu ġie ssejvjat!",
+	"editTaskSaveError": "Id-dejta tal-formola hija invalida!",
 	"editTitleEditTask": "Editja l-attività {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Kompitu ġdid",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Il-kompitu tħassar!",
 	"listAddTaskButtonTitle": "Żid attività ġdida",
 	"listEditTaskButtonTitle": "Editja din l-attività",
 	"listEmptyTaskList": "Il-lista tal-attivitajiet hija vojta, għaliex ma żżidx waħda ġdida?",
