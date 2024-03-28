@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Hætta við gildandi breytingar",
+	"editSaveButtonTitle": "Vistar gildandi breytingar",
+	"editTaskCompletionBetweenError": "Gildi lokunar verður að vera á milli 0 og 100",
+	"editTaskCompletionHelp": "Gildi þess að ljúka verki",
+	"editTaskCompletionLabel": "Endalok",
+	"editTaskDescriptionHelp": "Lýsing á verkefninu",
+	"editTaskDescriptionLabel": "Lýsing",
+	"editTaskIdentifierHelp": "Innra kenni verks ( Það er myndað sjálfvirkt )",
+	"editTaskIdentifierLabel": "Kennimerki",
+	"editTaskNameHelp": "Heiti verksins",
+	"editTaskNameLabel": "Nafn",
+	"editTaskNameRequiredError": "Nafnsins er krafist",
+	"editTaskTagsHelp": "Merki verksins ( Aðskilin með kommu )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Það geta aðeins verið 5 merki að hámarki",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Breyta verki {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nýtt verk",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Bæta við nýju verki",
+	"listEditTaskButtonTitle": "Breyta þessu verki",
+	"listEmptyTaskList": "Verkefnalistinn er tómur, hvers vegna ekki að bæta við nýjum?",
+	"listHeaderTaskId": "Verkefni {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Verkefnalisti",
+	"listRemoveTaskButtonTitle": "Fjarlægja þetta verk"
+}
