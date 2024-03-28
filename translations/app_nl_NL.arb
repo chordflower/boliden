@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "De tags van de taak ( Gescheiden door komma )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Er kunnen maximaal 5 tags zijn",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "De taak is gemaakt!",
+	"editTaskEditSuccess": "De taak was gered!",
+	"editTaskSaveError": "De formuliergegevens zijn ongeldig!",
 	"editTitleEditTask": "Taak bewerken {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nieuwe taak",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "De taak is verwijderd!",
 	"listAddTaskButtonTitle": "Voeg een nieuwe taak toe",
 	"listEditTaskButtonTitle": "Deze taak bewerken",
 	"listEmptyTaskList": "De takenlijst is leeg, waarom niet een nieuwe toevoegen?",
