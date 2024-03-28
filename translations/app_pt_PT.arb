@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Etiquetas da tarefa (separados por vírgula)",
 	"editTaskTagsLabel": "Etiquetas",
 	"editTaskTagsMaxLengthError": "Pode haver apenas 5 etiquetas no máximo",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "A tarefa foi criada!",
+	"editTaskEditSuccess": "A tarefa foi guardada!",
+	"editTaskSaveError": "O formulário tem erros",
 	"editTitleEditTask": "Editar tarefa {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nova tarefa",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "A tarefa foi removida!",
 	"listAddTaskButtonTitle": "Adicionar uma nova tarefa",
 	"listEditTaskButtonTitle": "Editar esta tarefa",
 	"listEmptyTaskList": "A lista de tarefas está vazia, por que não adicionar uma nova?",
