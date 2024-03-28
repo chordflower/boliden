@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Таговете на задачата ( Разделени със запетая )",
 	"editTaskTagsLabel": "Етикети",
 	"editTaskTagsMaxLengthError": "Може да има само 5 етикета на максимум",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Задачата е създадена!",
+	"editTaskEditSuccess": "Задачата е спасена!",
+	"editTaskSaveError": "Данните на формуляра са невалидни!",
 	"editTitleEditTask": "Редактиране на задача {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Нова задача",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Задачата е изтрита!",
 	"listAddTaskButtonTitle": "Добавяне на нова задача",
 	"listEditTaskButtonTitle": "Редактиране на тази задача",
 	"listEmptyTaskList": "Списъкът със задачи е празен, защо да не добавите нов?",
