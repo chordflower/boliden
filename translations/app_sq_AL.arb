@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Anulloni ndryshimet aktuale",
+	"editSaveButtonTitle": "Kursen ndryshimet aktuale",
+	"editTaskCompletionBetweenError": "Vlera e përfundimit duhet të jetë midis 0 dhe 100",
+	"editTaskCompletionHelp": "Vlera e përfundimit të detyrës",
+	"editTaskCompletionLabel": "Përfundimi",
+	"editTaskDescriptionHelp": "Përshkrimi i detyrës",
+	"editTaskDescriptionLabel": "Përshkrimi",
+	"editTaskIdentifierHelp": "Identifikuesi i brendshëm i detyrës ( Gjenerohet automatikisht )",
+	"editTaskIdentifierLabel": "Identifikuesi",
+	"editTaskNameHelp": "Emri i detyrës",
+	"editTaskNameLabel": "Emri",
+	"editTaskNameRequiredError": "Emri është i nevojshëm",
+	"editTaskTagsHelp": "Etiketat e detyrës ( Ndarë nga koma )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Mund të ketë vetëm 5 tags në maksimum",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Ndrysho detyrën {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Detyrë e re",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Shto një detyrë të re",
+	"listEditTaskButtonTitle": "Ndrysho këtë detyrë",
+	"listEmptyTaskList": "Lista e detyrave është bosh, pse të mos shtoni një të re?",
+	"listHeaderTaskId": "Detyra {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Lista e detyrave",
+	"listRemoveTaskButtonTitle": "Hiqe këtë detyrë"
+}
