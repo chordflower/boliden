@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Tehtävän tunnisteet ( erotettu pilkulla )",
 	"editTaskTagsLabel": "Tunnisteet",
 	"editTaskTagsMaxLengthError": "Tunnisteita voi olla enintään 5",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Tehtävä luotiin!",
+	"editTaskEditSuccess": "Tehtävä tallennettiin!",
+	"editTaskSaveError": "Lomakkeen tiedot ovat virheelliset!",
 	"editTitleEditTask": "Muokkaa tehtävää {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Uusi tehtävä",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Tehtävä poistettiin!",
 	"listAddTaskButtonTitle": "Uuden tehtävän lisääminen",
 	"listEditTaskButtonTitle": "Muokkaa tätä tehtävää",
 	"listEmptyTaskList": "Tehtäväluettelo on tyhjä, miksi et lisää uutta?",
