@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Cancel·lar els canvis actuals",
+	"editSaveButtonTitle": "Desa els canvis actuals",
+	"editTaskCompletionBetweenError": "El valor de finalització ha d'estar entre 0 i 100",
+	"editTaskCompletionHelp": "Valor de finalització de tasques",
+	"editTaskCompletionLabel": "Acabament",
+	"editTaskDescriptionHelp": "Descripció de la tasca",
+	"editTaskDescriptionLabel": "Descripció",
+	"editTaskIdentifierHelp": "L'identificador intern de la tasca ( Es genera automàticament )",
+	"editTaskIdentifierLabel": "Identificador",
+	"editTaskNameHelp": "El nom de la tasca",
+	"editTaskNameLabel": "Nom",
+	"editTaskNameRequiredError": "El nom és obligatori",
+	"editTaskTagsHelp": "Les etiquetes de la tasca ( Separades per comes )",
+	"editTaskTagsLabel": "Etiquetes",
+	"editTaskTagsMaxLengthError": "Només hi pot haver 5 etiquetes com a màxim",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Edita la tasca {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nova tasca",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Afegir una tasca nova",
+	"listEditTaskButtonTitle": "Editeu aquesta tasca",
+	"listEmptyTaskList": "La llista de tasques està buida, per què no afegir-ne una de nova?",
+	"listHeaderTaskId": "Tasca {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Llista de tasques",
+	"listRemoveTaskButtonTitle": "Suprimeix aquesta tasca"
+}
