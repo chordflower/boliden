@@ -1,0 +1,5 @@
+arb-dir: translations
+output-dir: lib/i10n
+template-arb-file: app_en_GB.arb
+output-localization-file: app_localizations.dart
+synthetic-package: false

@@ -1,0 +1,43 @@
+{
+	"editCancelButtonTitle": "Annulla le modifiche correnti",
+	"editSaveButtonTitle": "Salva le modifiche correnti",
+	"editTaskCompletionBetweenError": "Il valore di completamento deve essere compreso tra 0 e 100",
+	"editTaskCompletionHelp": "Valore di completamento dell'attività",
+	"editTaskCompletionLabel": "Compimento",
+	"editTaskDescriptionHelp": "Descrizione dell'attività",
+	"editTaskDescriptionLabel": "Descrizione: __________",
+	"editTaskIdentifierHelp": "L'identificatore interno dell'attività (viene generato automaticamente)",
+	"editTaskIdentifierLabel": "Identificatore",
+	"editTaskNameHelp": "Il nome dell'attività",
+	"editTaskNameLabel": "Nome",
+	"editTaskNameRequiredError": "Il nome è obbligatorio",
+	"editTaskTagsHelp": "I tag dell'attività ( Separati da virgola )",
+	"editTaskTagsLabel": "Tag",
+	"editTaskTagsMaxLengthError": "Possono essere presenti al massimo 5 tag",
+	"editTitleEditTask": "Modificare l'attività {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nuova attività",
+	"listAddTaskButtonTitle": "Aggiungere una nuova attività",
+	"listEditTaskButtonTitle": "Modificare questa attività",
+	"listEmptyTaskList": "L'elenco delle attività è vuoto, perché non aggiungerne uno nuovo?",
+	"listHeaderTaskId": "Compito {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Elenco delle attività",
+	"listRemoveTaskButtonTitle": "Rimuovere questa attività"
+}
