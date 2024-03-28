@@ -50,12 +50,24 @@ class AppLocalizationsCs extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Značek může být maximálně 5';
 
   @override
+  String get editTaskCreateSuccess => 'Úkol byl vytvořen!';
+
+  @override
+  String get editTaskEditSuccess => 'Úkol byl uložen!';
+
+  @override
+  String get editTaskSaveError => 'Data formuláře jsou neplatná!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Upravit úkol $id';
   }
 
   @override
   String get editTitleNewTask => 'Nový úkol';
+
+  @override
+  String get listRemoveSuccess => 'Úkol byl smazán!';
 
   @override
   String get listAddTaskButtonTitle => 'Přidání nového úkolu';
@@ -128,12 +140,24 @@ class AppLocalizationsCsCz extends AppLocalizationsCs {
   String get editTaskTagsMaxLengthError => 'Značek může být maximálně 5';
 
   @override
+  String get editTaskCreateSuccess => 'Úkol byl vytvořen!';
+
+  @override
+  String get editTaskEditSuccess => 'Úkol byl uložen!';
+
+  @override
+  String get editTaskSaveError => 'Data formuláře jsou neplatná!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Upravit úkol $id';
   }
 
   @override
   String get editTitleNewTask => 'Nový úkol';
+
+  @override
+  String get listRemoveSuccess => 'Úkol byl smazán!';
 
   @override
   String get listAddTaskButtonTitle => 'Přidání nového úkolu';

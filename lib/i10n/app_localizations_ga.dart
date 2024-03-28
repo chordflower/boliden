@@ -50,12 +50,24 @@ class AppLocalizationsGa extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Ní féidir ach 5 chlib a bheith ar a mhéad';
 
   @override
+  String get editTaskCreateSuccess => 'Cruthaíodh an tasc!';
+
+  @override
+  String get editTaskEditSuccess => 'Sábháladh an tasc!';
+
+  @override
+  String get editTaskSaveError => 'Tá na sonraí foirme neamhbhailí';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Cuir tasc $id in eagar';
   }
 
   @override
   String get editTitleNewTask => 'Tasc nua';
+
+  @override
+  String get listRemoveSuccess => 'Scriosadh an tasc!';
 
   @override
   String get listAddTaskButtonTitle => 'Cuir tasc nua leis';
@@ -128,12 +140,24 @@ class AppLocalizationsGaIe extends AppLocalizationsGa {
   String get editTaskTagsMaxLengthError => 'Ní féidir ach 5 chlib a bheith ar a mhéad';
 
   @override
+  String get editTaskCreateSuccess => 'Cruthaíodh an tasc!';
+
+  @override
+  String get editTaskEditSuccess => 'Sábháladh an tasc!';
+
+  @override
+  String get editTaskSaveError => 'Tá na sonraí foirme neamhbhailí';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Cuir tasc $id in eagar';
   }
 
   @override
   String get editTitleNewTask => 'Tasc nua';
+
+  @override
+  String get listRemoveSuccess => 'Scriosadh an tasc!';
 
   @override
   String get listAddTaskButtonTitle => 'Cuir tasc nua leis';

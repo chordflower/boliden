@@ -50,12 +50,24 @@ class AppLocalizationsRo extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Pot exista doar 5 etichete la maxim';
 
   @override
+  String get editTaskCreateSuccess => 'Sarcina a fost creată!';
+
+  @override
+  String get editTaskEditSuccess => 'Sarcina a fost salvată!';
+
+  @override
+  String get editTaskSaveError => 'Datele din formular nu sunt valide!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Editare activitate $id';
   }
 
   @override
   String get editTitleNewTask => 'Sarcină nouă';
+
+  @override
+  String get listRemoveSuccess => 'Sarcina a fost ștearsă!';
 
   @override
   String get listAddTaskButtonTitle => 'Adăugarea unei activități noi';
@@ -128,12 +140,24 @@ class AppLocalizationsRoRo extends AppLocalizationsRo {
   String get editTaskTagsMaxLengthError => 'Pot exista doar 5 etichete la maxim';
 
   @override
+  String get editTaskCreateSuccess => 'Sarcina a fost creată!';
+
+  @override
+  String get editTaskEditSuccess => 'Sarcina a fost salvată!';
+
+  @override
+  String get editTaskSaveError => 'Datele din formular nu sunt valide!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Editare activitate $id';
   }
 
   @override
   String get editTitleNewTask => 'Sarcină nouă';
+
+  @override
+  String get listRemoveSuccess => 'Sarcina a fost ștearsă!';
 
   @override
   String get listAddTaskButtonTitle => 'Adăugarea unei activități noi';

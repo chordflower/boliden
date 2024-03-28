@@ -50,12 +50,24 @@ class AppLocalizationsPl extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Maksymalnie może być tylko 5 tagów';
 
   @override
+  String get editTaskCreateSuccess => 'Zadanie powstało!';
+
+  @override
+  String get editTaskEditSuccess => 'Zadanie zostało uratowane!';
+
+  @override
+  String get editTaskSaveError => 'Dane formularza są nieprawidłowe!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Edytowanie zadania $id';
   }
 
   @override
   String get editTitleNewTask => 'Nowe zadanie';
+
+  @override
+  String get listRemoveSuccess => 'Zadanie zostało usunięte!';
 
   @override
   String get listAddTaskButtonTitle => 'Dodawanie nowego zadania';
@@ -128,12 +140,24 @@ class AppLocalizationsPlPl extends AppLocalizationsPl {
   String get editTaskTagsMaxLengthError => 'Maksymalnie może być tylko 5 tagów';
 
   @override
+  String get editTaskCreateSuccess => 'Zadanie powstało!';
+
+  @override
+  String get editTaskEditSuccess => 'Zadanie zostało uratowane!';
+
+  @override
+  String get editTaskSaveError => 'Dane formularza są nieprawidłowe!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Edytowanie zadania $id';
   }
 
   @override
   String get editTitleNewTask => 'Nowe zadanie';
+
+  @override
+  String get listRemoveSuccess => 'Zadanie zostało usunięte!';
 
   @override
   String get listAddTaskButtonTitle => 'Dodawanie nowego zadania';

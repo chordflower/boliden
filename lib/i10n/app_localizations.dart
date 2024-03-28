@@ -288,6 +288,24 @@ abstract class AppLocalizations {
   /// **'There can be only 5 tags at maximum'**
   String get editTaskTagsMaxLengthError;
 
+  /// No description provided for @editTaskCreateSuccess.
+  ///
+  /// In en_GB, this message translates to:
+  /// **'The task was created!'**
+  String get editTaskCreateSuccess;
+
+  /// No description provided for @editTaskEditSuccess.
+  ///
+  /// In en_GB, this message translates to:
+  /// **'The task was saved!'**
+  String get editTaskEditSuccess;
+
+  /// No description provided for @editTaskSaveError.
+  ///
+  /// In en_GB, this message translates to:
+  /// **'The form data is invalid!'**
+  String get editTaskSaveError;
+
   /// No description provided for @editTitleEditTask.
   ///
   /// In en_GB, this message translates to:
@@ -299,6 +317,12 @@ abstract class AppLocalizations {
   /// In en_GB, this message translates to:
   /// **'New task'**
   String get editTitleNewTask;
+
+  /// No description provided for @listRemoveSuccess.
+  ///
+  /// In en_GB, this message translates to:
+  /// **'The task was deleted!'**
+  String get listRemoveSuccess;
 
   /// No description provided for @listAddTaskButtonTitle.
   ///

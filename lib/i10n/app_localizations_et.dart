@@ -50,12 +50,24 @@ class AppLocalizationsEt extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Maksimaalselt saab olla ainult 5 silti';
 
   @override
+  String get editTaskCreateSuccess => 'Ülesanne oli loodud!';
+
+  @override
+  String get editTaskEditSuccess => 'Ülesanne salvestati!';
+
+  @override
+  String get editTaskSaveError => 'Vormi andmed on kehtetud!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Redigeeri ülesannet $id';
   }
 
   @override
   String get editTitleNewTask => 'Uus ülesanne';
+
+  @override
+  String get listRemoveSuccess => 'Ülesanne kustutati!';
 
   @override
   String get listAddTaskButtonTitle => 'Uue tööülesande lisamine';
@@ -128,12 +140,24 @@ class AppLocalizationsEtEe extends AppLocalizationsEt {
   String get editTaskTagsMaxLengthError => 'Maksimaalselt saab olla ainult 5 silti';
 
   @override
+  String get editTaskCreateSuccess => 'Ülesanne oli loodud!';
+
+  @override
+  String get editTaskEditSuccess => 'Ülesanne salvestati!';
+
+  @override
+  String get editTaskSaveError => 'Vormi andmed on kehtetud!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Redigeeri ülesannet $id';
   }
 
   @override
   String get editTitleNewTask => 'Uus ülesanne';
+
+  @override
+  String get listRemoveSuccess => 'Ülesanne kustutati!';
 
   @override
   String get listAddTaskButtonTitle => 'Uue tööülesande lisamine';

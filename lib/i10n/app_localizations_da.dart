@@ -50,12 +50,24 @@ class AppLocalizationsDa extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Der kan kun maksimalt være 5 tags';
 
   @override
+  String get editTaskCreateSuccess => 'Opgaven blev oprettet!';
+
+  @override
+  String get editTaskEditSuccess => 'Opgaven blev reddet!';
+
+  @override
+  String get editTaskSaveError => 'Formulardataene er ugyldige!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Rediger opgave $id';
   }
 
   @override
   String get editTitleNewTask => 'Ny opgave';
+
+  @override
+  String get listRemoveSuccess => 'Opgaven blev slettet!';
 
   @override
   String get listAddTaskButtonTitle => 'Tilføje en ny opgave';
@@ -128,12 +140,24 @@ class AppLocalizationsDaDk extends AppLocalizationsDa {
   String get editTaskTagsMaxLengthError => 'Der kan kun maksimalt være 5 tags';
 
   @override
+  String get editTaskCreateSuccess => 'Opgaven blev oprettet!';
+
+  @override
+  String get editTaskEditSuccess => 'Opgaven blev reddet!';
+
+  @override
+  String get editTaskSaveError => 'Formulardataene er ugyldige!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Rediger opgave $id';
   }
 
   @override
   String get editTitleNewTask => 'Ny opgave';
+
+  @override
+  String get listRemoveSuccess => 'Opgaven blev slettet!';
 
   @override
   String get listAddTaskButtonTitle => 'Tilføje en ny opgave';

@@ -29,7 +29,7 @@ class AppLocalizationsLb extends AppLocalizations {
   String get editTaskIdentifierHelp => 'Den internen Identifizéierer vun der Aufgab (Et gëtt automatesch generéiert)';
 
   @override
-  String get editTaskIdentifierLabel => 'Identifier';
+  String get editTaskIdentifierLabel => 'Identifizéierer';
 
   @override
   String get editTaskNameHelp => 'Den Numm vun der Aufgab';
@@ -50,12 +50,24 @@ class AppLocalizationsLb extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Et kënne maximal 5 Tags sinn';
 
   @override
+  String get editTaskCreateSuccess => 'D\'Aufgab gouf erstallt!';
+
+  @override
+  String get editTaskEditSuccess => 'D\'Aufgab war gerett!';
+
+  @override
+  String get editTaskSaveError => 'D\'Formdaten sinn ongëlteg!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Task $id änneren';
   }
 
   @override
   String get editTitleNewTask => 'Nei Aufgab';
+
+  @override
+  String get listRemoveSuccess => 'D\'Aufgab gouf geläscht!';
 
   @override
   String get listAddTaskButtonTitle => 'Eng nei Aufgab derbäisetzen';
@@ -107,7 +119,7 @@ class AppLocalizationsLbLu extends AppLocalizationsLb {
   String get editTaskIdentifierHelp => 'Den internen Identifizéierer vun der Aufgab (Et gëtt automatesch generéiert)';
 
   @override
-  String get editTaskIdentifierLabel => 'Identifier';
+  String get editTaskIdentifierLabel => 'Identifizéierer';
 
   @override
   String get editTaskNameHelp => 'Den Numm vun der Aufgab';
@@ -128,12 +140,24 @@ class AppLocalizationsLbLu extends AppLocalizationsLb {
   String get editTaskTagsMaxLengthError => 'Et kënne maximal 5 Tags sinn';
 
   @override
+  String get editTaskCreateSuccess => 'D\'Aufgab gouf erstallt!';
+
+  @override
+  String get editTaskEditSuccess => 'D\'Aufgab war gerett!';
+
+  @override
+  String get editTaskSaveError => 'D\'Formdaten sinn ongëlteg!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Task $id änneren';
   }
 
   @override
   String get editTitleNewTask => 'Nei Aufgab';
+
+  @override
+  String get listRemoveSuccess => 'D\'Aufgab gouf geläscht!';
 
   @override
   String get listAddTaskButtonTitle => 'Eng nei Aufgab derbäisetzen';

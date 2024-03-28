@@ -50,12 +50,24 @@ class AppLocalizationsBg extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Може да има само 5 етикета на максимум';
 
   @override
+  String get editTaskCreateSuccess => 'Задачата е създадена!';
+
+  @override
+  String get editTaskEditSuccess => 'Задачата е спасена!';
+
+  @override
+  String get editTaskSaveError => 'Данните на формуляра са невалидни!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Редактиране на задача $id';
   }
 
   @override
   String get editTitleNewTask => 'Нова задача';
+
+  @override
+  String get listRemoveSuccess => 'Задачата е изтрита!';
 
   @override
   String get listAddTaskButtonTitle => 'Добавяне на нова задача';
@@ -128,12 +140,24 @@ class AppLocalizationsBgBg extends AppLocalizationsBg {
   String get editTaskTagsMaxLengthError => 'Може да има само 5 етикета на максимум';
 
   @override
+  String get editTaskCreateSuccess => 'Задачата е създадена!';
+
+  @override
+  String get editTaskEditSuccess => 'Задачата е спасена!';
+
+  @override
+  String get editTaskSaveError => 'Данните на формуляра са невалидни!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Редактиране на задача $id';
   }
 
   @override
   String get editTitleNewTask => 'Нова задача';
+
+  @override
+  String get listRemoveSuccess => 'Задачата е изтрита!';
 
   @override
   String get listAddTaskButtonTitle => 'Добавяне на нова задача';

@@ -50,12 +50,24 @@ class AppLocalizationsHr extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Može biti najviše samo 5 oznaka';
 
   @override
+  String get editTaskCreateSuccess => 'Zadatak je stvoren!';
+
+  @override
+  String get editTaskEditSuccess => 'Zadatak je spremljen!';
+
+  @override
+  String get editTaskSaveError => 'Podaci obrasca nisu valjani!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Uređivanje zadatka $id';
   }
 
   @override
   String get editTitleNewTask => 'Novi zadatak';
+
+  @override
+  String get listRemoveSuccess => 'Zadatak je izbrisan!';
 
   @override
   String get listAddTaskButtonTitle => 'Dodavanje novog zadatka';
@@ -128,12 +140,24 @@ class AppLocalizationsHrHr extends AppLocalizationsHr {
   String get editTaskTagsMaxLengthError => 'Može biti najviše samo 5 oznaka';
 
   @override
+  String get editTaskCreateSuccess => 'Zadatak je stvoren!';
+
+  @override
+  String get editTaskEditSuccess => 'Zadatak je spremljen!';
+
+  @override
+  String get editTaskSaveError => 'Podaci obrasca nisu valjani!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Uređivanje zadatka $id';
   }
 
   @override
   String get editTitleNewTask => 'Novi zadatak';
+
+  @override
+  String get listRemoveSuccess => 'Zadatak je izbrisan!';
 
   @override
   String get listAddTaskButtonTitle => 'Dodavanje novog zadatka';

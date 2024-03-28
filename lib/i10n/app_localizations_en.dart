@@ -50,12 +50,24 @@ class AppLocalizationsEn extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'There can be only 5 tags at maximum';
 
   @override
+  String get editTaskCreateSuccess => 'The task was created!';
+
+  @override
+  String get editTaskEditSuccess => 'The task was saved!';
+
+  @override
+  String get editTaskSaveError => 'The form data is invalid!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Edit task $id';
   }
 
   @override
   String get editTitleNewTask => 'New task';
+
+  @override
+  String get listRemoveSuccess => 'The task was deleted!';
 
   @override
   String get listAddTaskButtonTitle => 'Add a new task';
@@ -128,12 +140,24 @@ class AppLocalizationsEnGb extends AppLocalizationsEn {
   String get editTaskTagsMaxLengthError => 'There can be only 5 tags at maximum';
 
   @override
+  String get editTaskCreateSuccess => 'The task was created!';
+
+  @override
+  String get editTaskEditSuccess => 'The task was saved!';
+
+  @override
+  String get editTaskSaveError => 'The form data is invalid!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Edit task $id';
   }
 
   @override
   String get editTitleNewTask => 'New task';
+
+  @override
+  String get listRemoveSuccess => 'The task was deleted!';
 
   @override
   String get listAddTaskButtonTitle => 'Add a new task';

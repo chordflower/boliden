@@ -50,12 +50,24 @@ class AppLocalizationsCa extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Només hi pot haver 5 etiquetes com a màxim';
 
   @override
+  String get editTaskCreateSuccess => 'La tasca estava creada!';
+
+  @override
+  String get editTaskEditSuccess => 'La tasca es va salvar!';
+
+  @override
+  String get editTaskSaveError => 'Les dades del formulari no són vàlides!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Edita la tasca $id';
   }
 
   @override
   String get editTitleNewTask => 'Nova tasca';
+
+  @override
+  String get listRemoveSuccess => 'La tasca s\'ha esborrat!';
 
   @override
   String get listAddTaskButtonTitle => 'Afegir una tasca nova';
@@ -128,12 +140,24 @@ class AppLocalizationsCaEs extends AppLocalizationsCa {
   String get editTaskTagsMaxLengthError => 'Només hi pot haver 5 etiquetes com a màxim';
 
   @override
+  String get editTaskCreateSuccess => 'La tasca estava creada!';
+
+  @override
+  String get editTaskEditSuccess => 'La tasca es va salvar!';
+
+  @override
+  String get editTaskSaveError => 'Les dades del formulari no són vàlides!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Edita la tasca $id';
   }
 
   @override
   String get editTitleNewTask => 'Nova tasca';
+
+  @override
+  String get listRemoveSuccess => 'La tasca s\'ha esborrat!';
 
   @override
   String get listAddTaskButtonTitle => 'Afegir una tasca nova';

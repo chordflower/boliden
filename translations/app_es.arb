@@ -14,6 +14,9 @@
 	"editTaskTagsHelp": "Las etiquetas de la tarea (separadas por coma)",
 	"editTaskTagsLabel": "Etiquetas",
 	"editTaskTagsMaxLengthError": "Solo puede haber 5 etiquetas como máximo",
+	"editTaskCreateSuccess": "¡La tarea fue creada!",
+	"editTaskEditSuccess": "¡La tarea se salvó!",
+	"editTaskSaveError": "¡Los datos del formulario no son válidos!",
 	"editTitleEditTask": "Editar tarea {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -25,6 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nueva tarea",
+	"listRemoveSuccess": "¡La tarea fue eliminada!",
 	"listAddTaskButtonTitle": "Agregar una nueva tarea",
 	"listEditTaskButtonTitle": "Editar esta tarea",
 	"listEmptyTaskList": "La lista de tareas está vacía, ¿por qué no agregar una nueva?",

@@ -50,12 +50,24 @@ class AppLocalizationsLv extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Maksimāli var būt tikai 5 tagi';
 
   @override
+  String get editTaskCreateSuccess => 'Uzdevums tika izveidots!';
+
+  @override
+  String get editTaskEditSuccess => 'Uzdevums tika izglābts!';
+
+  @override
+  String get editTaskSaveError => 'Veidlapas dati nav derīgi!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Rediģēt uzdevumu $id';
   }
 
   @override
   String get editTitleNewTask => 'Jauns uzdevums';
+
+  @override
+  String get listRemoveSuccess => 'Uzdevums tika izdzēsts!';
 
   @override
   String get listAddTaskButtonTitle => 'Jauna uzdevuma pievienošana';
@@ -128,12 +140,24 @@ class AppLocalizationsLvLv extends AppLocalizationsLv {
   String get editTaskTagsMaxLengthError => 'Maksimāli var būt tikai 5 tagi';
 
   @override
+  String get editTaskCreateSuccess => 'Uzdevums tika izveidots!';
+
+  @override
+  String get editTaskEditSuccess => 'Uzdevums tika izglābts!';
+
+  @override
+  String get editTaskSaveError => 'Veidlapas dati nav derīgi!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Rediģēt uzdevumu $id';
   }
 
   @override
   String get editTitleNewTask => 'Jauns uzdevums';
+
+  @override
+  String get listRemoveSuccess => 'Uzdevums tika izdzēsts!';
 
   @override
   String get listAddTaskButtonTitle => 'Jauna uzdevuma pievienošana';

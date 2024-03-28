@@ -50,12 +50,24 @@ class AppLocalizationsFr extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Il ne peut y avoir que 5 balises au maximum';
 
   @override
+  String get editTaskCreateSuccess => 'La tâche était créée !';
+
+  @override
+  String get editTaskEditSuccess => 'La tâche était sauvée !';
+
+  @override
+  String get editTaskSaveError => 'Les données du formulaire ne sont pas valides !';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Modifier la tâche $id';
   }
 
   @override
   String get editTitleNewTask => 'Nouvelle tâche';
+
+  @override
+  String get listRemoveSuccess => 'La tâche a été supprimée !';
 
   @override
   String get listAddTaskButtonTitle => 'Ajouter une nouvelle tâche';
@@ -128,12 +140,24 @@ class AppLocalizationsFrBe extends AppLocalizationsFr {
   String get editTaskTagsMaxLengthError => 'Il ne peut y avoir que 5 balises au maximum';
 
   @override
+  String get editTaskCreateSuccess => 'La tâche était créée !';
+
+  @override
+  String get editTaskEditSuccess => 'La tâche était sauvée !';
+
+  @override
+  String get editTaskSaveError => 'Les données du formulaire ne sont pas valides !';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Modifier la tâche $id';
   }
 
   @override
   String get editTitleNewTask => 'Nouvelle tâche';
+
+  @override
+  String get listRemoveSuccess => 'La tâche a été supprimée !';
 
   @override
   String get listAddTaskButtonTitle => 'Ajouter une nouvelle tâche';
@@ -206,12 +230,24 @@ class AppLocalizationsFrCh extends AppLocalizationsFr {
   String get editTaskTagsMaxLengthError => 'Il ne peut y avoir que 5 balises au maximum';
 
   @override
+  String get editTaskCreateSuccess => 'La tâche était créée !';
+
+  @override
+  String get editTaskEditSuccess => 'La tâche était sauvée !';
+
+  @override
+  String get editTaskSaveError => 'Les données du formulaire ne sont pas valides !';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Modifier la tâche $id';
   }
 
   @override
   String get editTitleNewTask => 'Nouvelle tâche';
+
+  @override
+  String get listRemoveSuccess => 'La tâche a été supprimée !';
 
   @override
   String get listAddTaskButtonTitle => 'Ajouter une nouvelle tâche';
@@ -284,12 +320,24 @@ class AppLocalizationsFrFr extends AppLocalizationsFr {
   String get editTaskTagsMaxLengthError => 'Il ne peut y avoir que 5 balises au maximum';
 
   @override
+  String get editTaskCreateSuccess => 'La tâche était créée !';
+
+  @override
+  String get editTaskEditSuccess => 'La tâche était sauvée !';
+
+  @override
+  String get editTaskSaveError => 'Les données du formulaire ne sont pas valides !';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Modifier la tâche $id';
   }
 
   @override
   String get editTitleNewTask => 'Nouvelle tâche';
+
+  @override
+  String get listRemoveSuccess => 'La tâche a été supprimée !';
 
   @override
   String get listAddTaskButtonTitle => 'Ajouter une nouvelle tâche';
@@ -362,12 +410,24 @@ class AppLocalizationsFrLu extends AppLocalizationsFr {
   String get editTaskTagsMaxLengthError => 'Il ne peut y avoir que 5 balises au maximum';
 
   @override
+  String get editTaskCreateSuccess => 'La tâche était créée !';
+
+  @override
+  String get editTaskEditSuccess => 'La tâche était sauvée !';
+
+  @override
+  String get editTaskSaveError => 'Les données du formulaire ne sont pas valides !';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Modifier la tâche $id';
   }
 
   @override
   String get editTitleNewTask => 'Nouvelle tâche';
+
+  @override
+  String get listRemoveSuccess => 'La tâche a été supprimée !';
 
   @override
   String get listAddTaskButtonTitle => 'Ajouter une nouvelle tâche';

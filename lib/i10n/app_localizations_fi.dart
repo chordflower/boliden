@@ -50,12 +50,24 @@ class AppLocalizationsFi extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Tunnisteita voi olla enintään 5';
 
   @override
+  String get editTaskCreateSuccess => 'Tehtävä luotiin!';
+
+  @override
+  String get editTaskEditSuccess => 'Tehtävä tallennettiin!';
+
+  @override
+  String get editTaskSaveError => 'Lomakkeen tiedot ovat virheelliset!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Muokkaa tehtävää $id';
   }
 
   @override
   String get editTitleNewTask => 'Uusi tehtävä';
+
+  @override
+  String get listRemoveSuccess => 'Tehtävä poistettiin!';
 
   @override
   String get listAddTaskButtonTitle => 'Uuden tehtävän lisääminen';
@@ -128,12 +140,24 @@ class AppLocalizationsFiFi extends AppLocalizationsFi {
   String get editTaskTagsMaxLengthError => 'Tunnisteita voi olla enintään 5';
 
   @override
+  String get editTaskCreateSuccess => 'Tehtävä luotiin!';
+
+  @override
+  String get editTaskEditSuccess => 'Tehtävä tallennettiin!';
+
+  @override
+  String get editTaskSaveError => 'Lomakkeen tiedot ovat virheelliset!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Muokkaa tehtävää $id';
   }
 
   @override
   String get editTitleNewTask => 'Uusi tehtävä';
+
+  @override
+  String get listRemoveSuccess => 'Tehtävä poistettiin!';
 
   @override
   String get listAddTaskButtonTitle => 'Uuden tehtävän lisääminen';

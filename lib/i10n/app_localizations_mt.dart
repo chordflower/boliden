@@ -50,12 +50,24 @@ class AppLocalizationsMt extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Jista \'jkun hemm biss 5 tags sa massimu';
 
   @override
+  String get editTaskCreateSuccess => 'Il-kompitu nħoloq!';
+
+  @override
+  String get editTaskEditSuccess => 'Il-kompitu ġie ssejvjat!';
+
+  @override
+  String get editTaskSaveError => 'Id-dejta tal-formola hija invalida!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Editja l-attività $id';
   }
 
   @override
   String get editTitleNewTask => 'Kompitu ġdid';
+
+  @override
+  String get listRemoveSuccess => 'Il-kompitu tħassar!';
 
   @override
   String get listAddTaskButtonTitle => 'Żid attività ġdida';
@@ -128,12 +140,24 @@ class AppLocalizationsMtMt extends AppLocalizationsMt {
   String get editTaskTagsMaxLengthError => 'Jista \'jkun hemm biss 5 tags sa massimu';
 
   @override
+  String get editTaskCreateSuccess => 'Il-kompitu nħoloq!';
+
+  @override
+  String get editTaskEditSuccess => 'Il-kompitu ġie ssejvjat!';
+
+  @override
+  String get editTaskSaveError => 'Id-dejta tal-formola hija invalida!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Editja l-attività $id';
   }
 
   @override
   String get editTitleNewTask => 'Kompitu ġdid';
+
+  @override
+  String get listRemoveSuccess => 'Il-kompitu tħassar!';
 
   @override
   String get listAddTaskButtonTitle => 'Żid attività ġdida';

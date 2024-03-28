@@ -50,12 +50,24 @@ class AppLocalizationsIs extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Það geta aðeins verið 5 merki að hámarki';
 
   @override
+  String get editTaskCreateSuccess => 'Verkið var stofnað!';
+
+  @override
+  String get editTaskEditSuccess => 'Verkið var vistað!';
+
+  @override
+  String get editTaskSaveError => 'Eyðublaðsgögnin eru ógild!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Breyta verki $id';
   }
 
   @override
   String get editTitleNewTask => 'Nýtt verk';
+
+  @override
+  String get listRemoveSuccess => 'Verkinu var eytt!';
 
   @override
   String get listAddTaskButtonTitle => 'Bæta við nýju verki';
@@ -128,12 +140,24 @@ class AppLocalizationsIsIs extends AppLocalizationsIs {
   String get editTaskTagsMaxLengthError => 'Það geta aðeins verið 5 merki að hámarki';
 
   @override
+  String get editTaskCreateSuccess => 'Verkið var stofnað!';
+
+  @override
+  String get editTaskEditSuccess => 'Verkið var vistað!';
+
+  @override
+  String get editTaskSaveError => 'Eyðublaðsgögnin eru ógild!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Breyta verki $id';
   }
 
   @override
   String get editTitleNewTask => 'Nýtt verk';
+
+  @override
+  String get listRemoveSuccess => 'Verkinu var eytt!';
 
   @override
   String get listAddTaskButtonTitle => 'Bæta við nýju verki';

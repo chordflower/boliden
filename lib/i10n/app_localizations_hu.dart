@@ -50,12 +50,24 @@ class AppLocalizationsHu extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Legfeljebb 5 címke lehet';
 
   @override
+  String get editTaskCreateSuccess => 'A feladat létrejött!';
+
+  @override
+  String get editTaskEditSuccess => 'A feladat mentésre került!';
+
+  @override
+  String get editTaskSaveError => 'Az űrlap adatai érvénytelenek!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Feladat szerkesztése $id';
   }
 
   @override
   String get editTitleNewTask => 'Új feladat';
+
+  @override
+  String get listRemoveSuccess => 'A feladat törölve lett!';
 
   @override
   String get listAddTaskButtonTitle => 'Új feladat hozzáadása';
@@ -128,12 +140,24 @@ class AppLocalizationsHuHu extends AppLocalizationsHu {
   String get editTaskTagsMaxLengthError => 'Legfeljebb 5 címke lehet';
 
   @override
+  String get editTaskCreateSuccess => 'A feladat létrejött!';
+
+  @override
+  String get editTaskEditSuccess => 'A feladat mentésre került!';
+
+  @override
+  String get editTaskSaveError => 'Az űrlap adatai érvénytelenek!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Feladat szerkesztése $id';
   }
 
   @override
   String get editTitleNewTask => 'Új feladat';
+
+  @override
+  String get listRemoveSuccess => 'A feladat törölve lett!';
 
   @override
   String get listAddTaskButtonTitle => 'Új feladat hozzáadása';

@@ -50,12 +50,24 @@ class AppLocalizationsDe extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Es können maximal 5 Tags vorhanden sein';
 
   @override
+  String get editTaskCreateSuccess => 'Die Aufgabe wurde erstellt!';
+
+  @override
+  String get editTaskEditSuccess => 'Die Aufgabe wurde gespeichert!';
+
+  @override
+  String get editTaskSaveError => 'Die Formulardaten sind ungültig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Aufgabe bearbeiten $id';
   }
 
   @override
   String get editTitleNewTask => 'Neue Aufgabe';
+
+  @override
+  String get listRemoveSuccess => 'Die Aufgabe wurde gelöscht!';
 
   @override
   String get listAddTaskButtonTitle => 'Hinzufügen einer neuen Aufgabe';
@@ -128,12 +140,24 @@ class AppLocalizationsDeAt extends AppLocalizationsDe {
   String get editTaskTagsMaxLengthError => 'Es können maximal 5 Tags vorhanden sein';
 
   @override
+  String get editTaskCreateSuccess => 'Die Aufgabe wurde erstellt!';
+
+  @override
+  String get editTaskEditSuccess => 'Die Aufgabe wurde gespeichert!';
+
+  @override
+  String get editTaskSaveError => 'Die Formulardaten sind ungültig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Aufgabe bearbeiten $id';
   }
 
   @override
   String get editTitleNewTask => 'Neue Aufgabe';
+
+  @override
+  String get listRemoveSuccess => 'Die Aufgabe wurde gelöscht!';
 
   @override
   String get listAddTaskButtonTitle => 'Hinzufügen einer neuen Aufgabe';
@@ -206,12 +230,24 @@ class AppLocalizationsDeBe extends AppLocalizationsDe {
   String get editTaskTagsMaxLengthError => 'Es können maximal 5 Tags vorhanden sein';
 
   @override
+  String get editTaskCreateSuccess => 'Die Aufgabe wurde erstellt!';
+
+  @override
+  String get editTaskEditSuccess => 'Die Aufgabe wurde gespeichert!';
+
+  @override
+  String get editTaskSaveError => 'Die Formulardaten sind ungültig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Aufgabe bearbeiten $id';
   }
 
   @override
   String get editTitleNewTask => 'Neue Aufgabe';
+
+  @override
+  String get listRemoveSuccess => 'Die Aufgabe wurde gelöscht!';
 
   @override
   String get listAddTaskButtonTitle => 'Hinzufügen einer neuen Aufgabe';
@@ -284,12 +320,24 @@ class AppLocalizationsDeCh extends AppLocalizationsDe {
   String get editTaskTagsMaxLengthError => 'Es können maximal 5 Tags vorhanden sein';
 
   @override
+  String get editTaskCreateSuccess => 'Die Aufgabe wurde erstellt!';
+
+  @override
+  String get editTaskEditSuccess => 'Die Aufgabe wurde gespeichert!';
+
+  @override
+  String get editTaskSaveError => 'Die Formulardaten sind ungültig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Aufgabe bearbeiten $id';
   }
 
   @override
   String get editTitleNewTask => 'Neue Aufgabe';
+
+  @override
+  String get listRemoveSuccess => 'Die Aufgabe wurde gelöscht!';
 
   @override
   String get listAddTaskButtonTitle => 'Hinzufügen einer neuen Aufgabe';
@@ -362,12 +410,24 @@ class AppLocalizationsDeDe extends AppLocalizationsDe {
   String get editTaskTagsMaxLengthError => 'Es können maximal 5 Tags vorhanden sein';
 
   @override
+  String get editTaskCreateSuccess => 'Die Aufgabe wurde erstellt!';
+
+  @override
+  String get editTaskEditSuccess => 'Die Aufgabe wurde gespeichert!';
+
+  @override
+  String get editTaskSaveError => 'Die Formulardaten sind ungültig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Aufgabe bearbeiten $id';
   }
 
   @override
   String get editTitleNewTask => 'Neue Aufgabe';
+
+  @override
+  String get listRemoveSuccess => 'Die Aufgabe wurde gelöscht!';
 
   @override
   String get listAddTaskButtonTitle => 'Hinzufügen einer neuen Aufgabe';
@@ -440,12 +500,24 @@ class AppLocalizationsDeLi extends AppLocalizationsDe {
   String get editTaskTagsMaxLengthError => 'Es können maximal 5 Tags vorhanden sein';
 
   @override
+  String get editTaskCreateSuccess => 'Die Aufgabe wurde erstellt!';
+
+  @override
+  String get editTaskEditSuccess => 'Die Aufgabe wurde gespeichert!';
+
+  @override
+  String get editTaskSaveError => 'Die Formulardaten sind ungültig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Aufgabe bearbeiten $id';
   }
 
   @override
   String get editTitleNewTask => 'Neue Aufgabe';
+
+  @override
+  String get listRemoveSuccess => 'Die Aufgabe wurde gelöscht!';
 
   @override
   String get listAddTaskButtonTitle => 'Hinzufügen einer neuen Aufgabe';
@@ -518,12 +590,24 @@ class AppLocalizationsDeLu extends AppLocalizationsDe {
   String get editTaskTagsMaxLengthError => 'Es können maximal 5 Tags vorhanden sein';
 
   @override
+  String get editTaskCreateSuccess => 'Die Aufgabe wurde erstellt!';
+
+  @override
+  String get editTaskEditSuccess => 'Die Aufgabe wurde gespeichert!';
+
+  @override
+  String get editTaskSaveError => 'Die Formulardaten sind ungültig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Aufgabe bearbeiten $id';
   }
 
   @override
   String get editTitleNewTask => 'Neue Aufgabe';
+
+  @override
+  String get listRemoveSuccess => 'Die Aufgabe wurde gelöscht!';
 
   @override
   String get listAddTaskButtonTitle => 'Hinzufügen einer neuen Aufgabe';

@@ -50,12 +50,24 @@ class AppLocalizationsNo extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Det kan bare være maksimalt 5 tagger';
 
   @override
+  String get editTaskCreateSuccess => 'Oppgaven ble opprettet!';
+
+  @override
+  String get editTaskEditSuccess => 'Oppgaven ble reddet!';
+
+  @override
+  String get editTaskSaveError => 'Skjemadataene er ugyldige!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Rediger oppgave $id';
   }
 
   @override
   String get editTitleNewTask => 'Ny oppgave';
+
+  @override
+  String get listRemoveSuccess => 'Oppgaven ble slettet!';
 
   @override
   String get listAddTaskButtonTitle => 'Legge til en ny aktivitet';
@@ -128,12 +140,24 @@ class AppLocalizationsNoNo extends AppLocalizationsNo {
   String get editTaskTagsMaxLengthError => 'Det kan bare være maksimalt 5 tagger';
 
   @override
+  String get editTaskCreateSuccess => 'Oppgaven ble opprettet!';
+
+  @override
+  String get editTaskEditSuccess => 'Oppgaven ble reddet!';
+
+  @override
+  String get editTaskSaveError => 'Skjemadataene er ugyldige!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Rediger oppgave $id';
   }
 
   @override
   String get editTitleNewTask => 'Ny oppgave';
+
+  @override
+  String get listRemoveSuccess => 'Oppgaven ble slettet!';
 
   @override
   String get listAddTaskButtonTitle => 'Legge til en ny aktivitet';

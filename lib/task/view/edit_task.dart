@@ -51,7 +51,7 @@ class _EditTaskPageState extends State<EditTaskPage> {
           createdDate: form.control('createdDate').value,
         )));
         ScaffoldMessenger.of(widgetContext).showSnackBar(
-          SnackBar(content: Text('The task was created!')),
+          SnackBar(content: Text(AppLocalizations.of(widgetContext)?.editTaskCreateSuccess ?? '')),
         );
       } else {
         store.dispatch(actions.changeTask(
@@ -73,14 +73,14 @@ class _EditTaskPageState extends State<EditTaskPage> {
           id,
         ));
         ScaffoldMessenger.of(widgetContext).showSnackBar(
-          SnackBar(content: Text('The task was saved!')),
+          SnackBar(content: Text(AppLocalizations.of(widgetContext)?.editTaskEditSuccess ?? '')),
         );
       }
       Navigator.pop(widgetContext);
     } else {
       ScaffoldMessenger.of(widgetContext).showSnackBar(
         SnackBar(
-          content: Text('The form data is invalid!'),
+          content: Text(AppLocalizations.of(widgetContext)?.editTaskSaveError ?? ''),
           backgroundColor: Colors.red[200],
         ),
       );

@@ -50,12 +50,24 @@ class AppLocalizationsNl extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Er kunnen maximaal 5 tags zijn';
 
   @override
+  String get editTaskCreateSuccess => 'De taak is gemaakt!';
+
+  @override
+  String get editTaskEditSuccess => 'De taak was gered!';
+
+  @override
+  String get editTaskSaveError => 'De formuliergegevens zijn ongeldig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Taak bewerken $id';
   }
 
   @override
   String get editTitleNewTask => 'Nieuwe taak';
+
+  @override
+  String get listRemoveSuccess => 'De taak is verwijderd!';
 
   @override
   String get listAddTaskButtonTitle => 'Voeg een nieuwe taak toe';
@@ -128,12 +140,24 @@ class AppLocalizationsNlBe extends AppLocalizationsNl {
   String get editTaskTagsMaxLengthError => 'Er kunnen maximaal 5 tags zijn';
 
   @override
+  String get editTaskCreateSuccess => 'De taak is gemaakt!';
+
+  @override
+  String get editTaskEditSuccess => 'De taak was gered!';
+
+  @override
+  String get editTaskSaveError => 'De formuliergegevens zijn ongeldig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Taak bewerken $id';
   }
 
   @override
   String get editTitleNewTask => 'Nieuwe taak';
+
+  @override
+  String get listRemoveSuccess => 'De taak is verwijderd!';
 
   @override
   String get listAddTaskButtonTitle => 'Voeg een nieuwe taak toe';
@@ -206,12 +230,24 @@ class AppLocalizationsNlNl extends AppLocalizationsNl {
   String get editTaskTagsMaxLengthError => 'Er kunnen maximaal 5 tags zijn';
 
   @override
+  String get editTaskCreateSuccess => 'De taak is gemaakt!';
+
+  @override
+  String get editTaskEditSuccess => 'De taak was gered!';
+
+  @override
+  String get editTaskSaveError => 'De formuliergegevens zijn ongeldig!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Taak bewerken $id';
   }
 
   @override
   String get editTitleNewTask => 'Nieuwe taak';
+
+  @override
+  String get listRemoveSuccess => 'De taak is verwijderd!';
 
   @override
   String get listAddTaskButtonTitle => 'Voeg een nieuwe taak toe';

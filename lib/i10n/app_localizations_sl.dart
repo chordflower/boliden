@@ -50,12 +50,24 @@ class AppLocalizationsSl extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Največ 5 oznak je lahko';
 
   @override
+  String get editTaskCreateSuccess => 'Naloga je bila ustvarjena!';
+
+  @override
+  String get editTaskEditSuccess => 'Naloga je bila shranjena!';
+
+  @override
+  String get editTaskSaveError => 'Podatki obrazca niso veljavni!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Urejanje opravila $id';
   }
 
   @override
   String get editTitleNewTask => 'Novo opravilo';
+
+  @override
+  String get listRemoveSuccess => 'Naloga je bila izbrisana!';
 
   @override
   String get listAddTaskButtonTitle => 'Dodajanje novega opravila';
@@ -128,12 +140,24 @@ class AppLocalizationsSlSi extends AppLocalizationsSl {
   String get editTaskTagsMaxLengthError => 'Največ 5 oznak je lahko';
 
   @override
+  String get editTaskCreateSuccess => 'Naloga je bila ustvarjena!';
+
+  @override
+  String get editTaskEditSuccess => 'Naloga je bila shranjena!';
+
+  @override
+  String get editTaskSaveError => 'Podatki obrazca niso veljavni!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Urejanje opravila $id';
   }
 
   @override
   String get editTitleNewTask => 'Novo opravilo';
+
+  @override
+  String get listRemoveSuccess => 'Naloga je bila izbrisana!';
 
   @override
   String get listAddTaskButtonTitle => 'Dodajanje novega opravila';

@@ -14,6 +14,9 @@
 	"editTaskTagsHelp": "Taggarna för uppgiften (avgränsade med kommatecken)",
 	"editTaskTagsLabel": "Taggar",
 	"editTaskTagsMaxLengthError": "Det får bara finnas högst 5 taggar",
+	"editTaskCreateSuccess": "Uppgiften var skapad!",
+	"editTaskEditSuccess": "Uppgiften var räddad!",
+	"editTaskSaveError": "Formulärdata är ogiltiga!",
 	"editTitleEditTask": "Redigera uppgift {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -25,6 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Ny uppgift",
+	"listRemoveSuccess": "Uppgiften har tagits bort!",
 	"listAddTaskButtonTitle": "Lägga till en ny uppgift",
 	"listEditTaskButtonTitle": "Redigera den här uppgiften",
 	"listEmptyTaskList": "Uppgiftslistan är tom, varför inte lägga till en ny?",

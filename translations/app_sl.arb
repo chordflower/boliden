@@ -14,6 +14,9 @@
 	"editTaskTagsHelp": "Oznake opravila ( Ločeno z vejico )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Največ 5 oznak je lahko",
+	"editTaskCreateSuccess": "Naloga je bila ustvarjena!",
+	"editTaskEditSuccess": "Naloga je bila shranjena!",
+	"editTaskSaveError": "Podatki obrazca niso veljavni!",
 	"editTitleEditTask": "Urejanje opravila {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -25,6 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Novo opravilo",
+	"listRemoveSuccess": "Naloga je bila izbrisana!",
 	"listAddTaskButtonTitle": "Dodajanje novega opravila",
 	"listEditTaskButtonTitle": "Urejanje tega opravila",
 	"listEmptyTaskList": "Seznam opravil je prazen, zakaj ne bi dodali novega?",

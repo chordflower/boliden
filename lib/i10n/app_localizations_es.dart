@@ -50,12 +50,24 @@ class AppLocalizationsEs extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Solo puede haber 5 etiquetas como máximo';
 
   @override
+  String get editTaskCreateSuccess => '¡La tarea fue creada!';
+
+  @override
+  String get editTaskEditSuccess => '¡La tarea se salvó!';
+
+  @override
+  String get editTaskSaveError => '¡Los datos del formulario no son válidos!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Editar tarea $id';
   }
 
   @override
   String get editTitleNewTask => 'Nueva tarea';
+
+  @override
+  String get listRemoveSuccess => '¡La tarea fue eliminada!';
 
   @override
   String get listAddTaskButtonTitle => 'Agregar una nueva tarea';
@@ -128,12 +140,24 @@ class AppLocalizationsEsEs extends AppLocalizationsEs {
   String get editTaskTagsMaxLengthError => 'Solo puede haber 5 etiquetas como máximo';
 
   @override
+  String get editTaskCreateSuccess => '¡La tarea fue creada!';
+
+  @override
+  String get editTaskEditSuccess => '¡La tarea se salvó!';
+
+  @override
+  String get editTaskSaveError => '¡Los datos del formulario no son válidos!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Editar tarea $id';
   }
 
   @override
   String get editTitleNewTask => 'Nueva tarea';
+
+  @override
+  String get listRemoveSuccess => '¡La tarea fue eliminada!';
 
   @override
   String get listAddTaskButtonTitle => 'Agregar una nueva tarea';

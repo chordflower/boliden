@@ -50,12 +50,24 @@ class AppLocalizationsPt extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Pode haver apenas 5 etiquetas no máximo';
 
   @override
+  String get editTaskCreateSuccess => 'A tarefa foi criada!';
+
+  @override
+  String get editTaskEditSuccess => 'A tarefa foi guardada!';
+
+  @override
+  String get editTaskSaveError => 'O formulário tem erros';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Editar tarefa $id';
   }
 
   @override
   String get editTitleNewTask => 'Nova tarefa';
+
+  @override
+  String get listRemoveSuccess => 'A tarefa foi removida!';
 
   @override
   String get listAddTaskButtonTitle => 'Adicionar uma nova tarefa';
@@ -128,12 +140,24 @@ class AppLocalizationsPtPt extends AppLocalizationsPt {
   String get editTaskTagsMaxLengthError => 'Pode haver apenas 5 etiquetas no máximo';
 
   @override
+  String get editTaskCreateSuccess => 'A tarefa foi criada!';
+
+  @override
+  String get editTaskEditSuccess => 'A tarefa foi guardada!';
+
+  @override
+  String get editTaskSaveError => 'O formulário tem erros';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Editar tarefa $id';
   }
 
   @override
   String get editTitleNewTask => 'Nova tarefa';
+
+  @override
+  String get listRemoveSuccess => 'A tarefa foi removida!';
 
   @override
   String get listAddTaskButtonTitle => 'Adicionar uma nova tarefa';

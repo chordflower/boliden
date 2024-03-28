@@ -50,12 +50,24 @@ class AppLocalizationsSq extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Mund të ketë vetëm 5 tags në maksimum';
 
   @override
+  String get editTaskCreateSuccess => 'Detyra u krijua!';
+
+  @override
+  String get editTaskEditSuccess => 'Detyra u shpëtua!';
+
+  @override
+  String get editTaskSaveError => 'Të dhënat e formularit janë të pavlefshme!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Ndrysho detyrën $id';
   }
 
   @override
   String get editTitleNewTask => 'Detyrë e re';
+
+  @override
+  String get listRemoveSuccess => 'Detyra u fshi!';
 
   @override
   String get listAddTaskButtonTitle => 'Shto një detyrë të re';
@@ -128,12 +140,24 @@ class AppLocalizationsSqAl extends AppLocalizationsSq {
   String get editTaskTagsMaxLengthError => 'Mund të ketë vetëm 5 tags në maksimum';
 
   @override
+  String get editTaskCreateSuccess => 'Detyra u krijua!';
+
+  @override
+  String get editTaskEditSuccess => 'Detyra u shpëtua!';
+
+  @override
+  String get editTaskSaveError => 'Të dhënat e formularit janë të pavlefshme!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Ndrysho detyrën $id';
   }
 
   @override
   String get editTitleNewTask => 'Detyrë e re';
+
+  @override
+  String get listRemoveSuccess => 'Detyra u fshi!';
 
   @override
   String get listAddTaskButtonTitle => 'Shto një detyrë të re';

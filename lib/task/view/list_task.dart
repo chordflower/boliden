@@ -115,7 +115,7 @@ class TaskListItem extends StatelessWidget {
                   onPressed: () {
                     store.dispatch(RemoveTaskAction(id: task.id ?? -1));
                     ScaffoldMessenger.of(widgetContext).showSnackBar(
-                      SnackBar(content: Text('The task was deleted!')),
+                      SnackBar(content: Text(AppLocalizations.of(widgetContext)?.listRemoveSuccess ?? '')),
                     );
                   },
                   color: Colors.amber,

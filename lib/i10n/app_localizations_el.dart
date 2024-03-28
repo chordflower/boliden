@@ -50,12 +50,24 @@ class AppLocalizationsEl extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Μπορούν να υπάρχουν μόνο 5 ετικέτες το πολύ';
 
   @override
+  String get editTaskCreateSuccess => 'Η εργασία δημιουργήθηκε!';
+
+  @override
+  String get editTaskEditSuccess => 'Η εργασία σώθηκε!';
+
+  @override
+  String get editTaskSaveError => 'Τα δεδομένα φόρμας δεν είναι έγκυρα!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Επεξεργασία εργασίας $id';
   }
 
   @override
   String get editTitleNewTask => 'Νέα εργασία';
+
+  @override
+  String get listRemoveSuccess => 'Η εργασία διαγράφηκε!';
 
   @override
   String get listAddTaskButtonTitle => 'Προσθήκη νέας εργασίας';
@@ -128,12 +140,24 @@ class AppLocalizationsElGr extends AppLocalizationsEl {
   String get editTaskTagsMaxLengthError => 'Μπορούν να υπάρχουν μόνο 5 ετικέτες το πολύ';
 
   @override
+  String get editTaskCreateSuccess => 'Η εργασία δημιουργήθηκε!';
+
+  @override
+  String get editTaskEditSuccess => 'Η εργασία σώθηκε!';
+
+  @override
+  String get editTaskSaveError => 'Τα δεδομένα φόρμας δεν είναι έγκυρα!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Επεξεργασία εργασίας $id';
   }
 
   @override
   String get editTitleNewTask => 'Νέα εργασία';
+
+  @override
+  String get listRemoveSuccess => 'Η εργασία διαγράφηκε!';
 
   @override
   String get listAddTaskButtonTitle => 'Προσθήκη νέας εργασίας';

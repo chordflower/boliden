@@ -50,12 +50,24 @@ class AppLocalizationsIt extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Possono essere presenti al massimo 5 tag';
 
   @override
+  String get editTaskCreateSuccess => 'L\'attività è stata creata!';
+
+  @override
+  String get editTaskEditSuccess => 'Il compito è stato salvato!';
+
+  @override
+  String get editTaskSaveError => 'I dati del modulo non sono validi!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Modificare l\'attività $id';
   }
 
   @override
   String get editTitleNewTask => 'Nuova attività';
+
+  @override
+  String get listRemoveSuccess => 'L\'attività è stata eliminata!';
 
   @override
   String get listAddTaskButtonTitle => 'Aggiungere una nuova attività';
@@ -128,12 +140,24 @@ class AppLocalizationsItCh extends AppLocalizationsIt {
   String get editTaskTagsMaxLengthError => 'Possono essere presenti al massimo 5 tag';
 
   @override
+  String get editTaskCreateSuccess => 'L\'attività è stata creata!';
+
+  @override
+  String get editTaskEditSuccess => 'Il compito è stato salvato!';
+
+  @override
+  String get editTaskSaveError => 'I dati del modulo non sono validi!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Modificare l\'attività $id';
   }
 
   @override
   String get editTitleNewTask => 'Nuova attività';
+
+  @override
+  String get listRemoveSuccess => 'L\'attività è stata eliminata!';
 
   @override
   String get listAddTaskButtonTitle => 'Aggiungere una nuova attività';
@@ -206,12 +230,24 @@ class AppLocalizationsItIt extends AppLocalizationsIt {
   String get editTaskTagsMaxLengthError => 'Possono essere presenti al massimo 5 tag';
 
   @override
+  String get editTaskCreateSuccess => 'L\'attività è stata creata!';
+
+  @override
+  String get editTaskEditSuccess => 'Il compito è stato salvato!';
+
+  @override
+  String get editTaskSaveError => 'I dati del modulo non sono validi!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Modificare l\'attività $id';
   }
 
   @override
   String get editTitleNewTask => 'Nuova attività';
+
+  @override
+  String get listRemoveSuccess => 'L\'attività è stata eliminata!';
 
   @override
   String get listAddTaskButtonTitle => 'Aggiungere una nuova attività';

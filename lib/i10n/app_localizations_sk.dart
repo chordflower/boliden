@@ -50,12 +50,24 @@ class AppLocalizationsSk extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Maximálne 5 značiek môže byť';
 
   @override
+  String get editTaskCreateSuccess => 'Úloha bola vytvorená!';
+
+  @override
+  String get editTaskEditSuccess => 'Úloha bola uložená!';
+
+  @override
+  String get editTaskSaveError => 'Údaje formulára sú neplatné!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Upraviť úlohu $id';
   }
 
   @override
   String get editTitleNewTask => 'Nová úloha';
+
+  @override
+  String get listRemoveSuccess => 'Úloha bola odstránená!';
 
   @override
   String get listAddTaskButtonTitle => 'Pridanie novej úlohy';
@@ -128,12 +140,24 @@ class AppLocalizationsSkSk extends AppLocalizationsSk {
   String get editTaskTagsMaxLengthError => 'Maximálne 5 značiek môže byť';
 
   @override
+  String get editTaskCreateSuccess => 'Úloha bola vytvorená!';
+
+  @override
+  String get editTaskEditSuccess => 'Úloha bola uložená!';
+
+  @override
+  String get editTaskSaveError => 'Údaje formulára sú neplatné!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Upraviť úlohu $id';
   }
 
   @override
   String get editTitleNewTask => 'Nová úloha';
+
+  @override
+  String get listRemoveSuccess => 'Úloha bola odstránená!';
 
   @override
   String get listAddTaskButtonTitle => 'Pridanie novej úlohy';

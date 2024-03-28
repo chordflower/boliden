@@ -50,12 +50,24 @@ class AppLocalizationsSv extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Det får bara finnas högst 5 taggar';
 
   @override
+  String get editTaskCreateSuccess => 'Uppgiften var skapad!';
+
+  @override
+  String get editTaskEditSuccess => 'Uppgiften var räddad!';
+
+  @override
+  String get editTaskSaveError => 'Formulärdata är ogiltiga!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Redigera uppgift $id';
   }
 
   @override
   String get editTitleNewTask => 'Ny uppgift';
+
+  @override
+  String get listRemoveSuccess => 'Uppgiften har tagits bort!';
 
   @override
   String get listAddTaskButtonTitle => 'Lägga till en ny uppgift';
@@ -128,12 +140,24 @@ class AppLocalizationsSvSe extends AppLocalizationsSv {
   String get editTaskTagsMaxLengthError => 'Det får bara finnas högst 5 taggar';
 
   @override
+  String get editTaskCreateSuccess => 'Uppgiften var skapad!';
+
+  @override
+  String get editTaskEditSuccess => 'Uppgiften var räddad!';
+
+  @override
+  String get editTaskSaveError => 'Formulärdata är ogiltiga!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Redigera uppgift $id';
   }
 
   @override
   String get editTitleNewTask => 'Ny uppgift';
+
+  @override
+  String get listRemoveSuccess => 'Uppgiften har tagits bort!';
 
   @override
   String get listAddTaskButtonTitle => 'Lägga till en ny uppgift';

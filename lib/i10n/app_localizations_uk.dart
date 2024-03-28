@@ -50,12 +50,24 @@ class AppLocalizationsUk extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Максимум може бути всього 5 тегів';
 
   @override
+  String get editTaskCreateSuccess => 'Завдання створено!';
+
+  @override
+  String get editTaskEditSuccess => 'Завдання врятовано!';
+
+  @override
+  String get editTaskSaveError => 'Дані форми недійсні!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Редагувати завдання $id';
   }
 
   @override
   String get editTitleNewTask => 'Нове завдання';
+
+  @override
+  String get listRemoveSuccess => 'Завдання видалено!';
 
   @override
   String get listAddTaskButtonTitle => 'Як додати нове завдання';
@@ -128,12 +140,24 @@ class AppLocalizationsUkUa extends AppLocalizationsUk {
   String get editTaskTagsMaxLengthError => 'Максимум може бути всього 5 тегів';
 
   @override
+  String get editTaskCreateSuccess => 'Завдання створено!';
+
+  @override
+  String get editTaskEditSuccess => 'Завдання врятовано!';
+
+  @override
+  String get editTaskSaveError => 'Дані форми недійсні!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Редагувати завдання $id';
   }
 
   @override
   String get editTitleNewTask => 'Нове завдання';
+
+  @override
+  String get listRemoveSuccess => 'Завдання видалено!';
 
   @override
   String get listAddTaskButtonTitle => 'Як додати нове завдання';

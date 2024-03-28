@@ -50,12 +50,24 @@ class AppLocalizationsLt extends AppLocalizations {
   String get editTaskTagsMaxLengthError => 'Gali būti tik 5 žymos';
 
   @override
+  String get editTaskCreateSuccess => 'Užduotis buvo sukurta!';
+
+  @override
+  String get editTaskEditSuccess => 'Užduotis buvo išsaugota!';
+
+  @override
+  String get editTaskSaveError => 'Formos duomenys neteisingi!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Redaguoti užduotį $id';
   }
 
   @override
   String get editTitleNewTask => 'Nauja užduotis';
+
+  @override
+  String get listRemoveSuccess => 'Užduotis buvo ištrinta!';
 
   @override
   String get listAddTaskButtonTitle => 'Naujos užduoties įtraukimas';
@@ -128,12 +140,24 @@ class AppLocalizationsLtLt extends AppLocalizationsLt {
   String get editTaskTagsMaxLengthError => 'Gali būti tik 5 žymos';
 
   @override
+  String get editTaskCreateSuccess => 'Užduotis buvo sukurta!';
+
+  @override
+  String get editTaskEditSuccess => 'Užduotis buvo išsaugota!';
+
+  @override
+  String get editTaskSaveError => 'Formos duomenys neteisingi!';
+
+  @override
   String editTitleEditTask(int id) {
     return 'Redaguoti užduotį $id';
   }
 
   @override
   String get editTitleNewTask => 'Nauja užduotis';
+
+  @override
+  String get listRemoveSuccess => 'Užduotis buvo ištrinta!';
 
   @override
   String get listAddTaskButtonTitle => 'Naujos užduoties įtraukimas';
