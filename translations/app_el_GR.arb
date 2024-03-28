@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Οι ετικέτες της εργασίας ( Διαχωρισμένες με κόμμα )",
 	"editTaskTagsLabel": "Ετικέτες",
 	"editTaskTagsMaxLengthError": "Μπορούν να υπάρχουν μόνο 5 ετικέτες το πολύ",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Η εργασία δημιουργήθηκε!",
+	"editTaskEditSuccess": "Η εργασία σώθηκε!",
+	"editTaskSaveError": "Τα δεδομένα φόρμας δεν είναι έγκυρα!",
 	"editTitleEditTask": "Επεξεργασία εργασίας {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Νέα εργασία",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Η εργασία διαγράφηκε!",
 	"listAddTaskButtonTitle": "Προσθήκη νέας εργασίας",
 	"listEditTaskButtonTitle": "Επεξεργασία αυτής της εργασίας",
 	"listEmptyTaskList": "Η λίστα εργασιών είναι κενή, γιατί να μην προσθέσετε μια νέα;",
