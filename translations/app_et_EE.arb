@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Praeguste muudatuste tühistamine",
+	"editSaveButtonTitle": "Salvestab praegused muudatused",
+	"editTaskCompletionBetweenError": "Lõpetamise väärtus peab olema vahemikus 0 kuni 100",
+	"editTaskCompletionHelp": "Ülesande lõpetamise väärtus",
+	"editTaskCompletionLabel": "Lõpuleviimine",
+	"editTaskDescriptionHelp": "Ülesande kirjeldus",
+	"editTaskDescriptionLabel": "Kirjeldus",
+	"editTaskIdentifierHelp": "Ülesande sisemine identifikaator ( See luuakse automaatselt )",
+	"editTaskIdentifierLabel": "Identifikaator",
+	"editTaskNameHelp": "Ülesande nimi",
+	"editTaskNameLabel": "Nimi",
+	"editTaskNameRequiredError": "Nimi on kohustuslik",
+	"editTaskTagsHelp": "Ülesande sildid ( Eraldatud komaga )",
+	"editTaskTagsLabel": "Tags",
+	"editTaskTagsMaxLengthError": "Maksimaalselt saab olla ainult 5 silti",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Redigeeri ülesannet {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Uus ülesanne",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Uue tööülesande lisamine",
+	"listEditTaskButtonTitle": "Redigeerige seda toimingut",
+	"listEmptyTaskList": "Ülesannete loend on tühi, miks mitte lisada uus?",
+	"listHeaderTaskId": "Ülesanne {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Ülesannete loend",
+	"listRemoveTaskButtonTitle": "Eemaldage see toiming"
+}
