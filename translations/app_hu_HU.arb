@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Az aktuális módosítások visszavonása",
+	"editSaveButtonTitle": "Menti az aktuális módosításokat",
+	"editTaskCompletionBetweenError": "A befejezési értéknek 0 és 100 között kell lennie",
+	"editTaskCompletionHelp": "Tevékenység befejezési értéke",
+	"editTaskCompletionLabel": "Teljesítés",
+	"editTaskDescriptionHelp": "A feladat leírása",
+	"editTaskDescriptionLabel": "Leírás: __________",
+	"editTaskIdentifierHelp": "A feladat belső azonosítója ( Automatikusan generálódik )",
+	"editTaskIdentifierLabel": "Azonosító",
+	"editTaskNameHelp": "A feladat neve",
+	"editTaskNameLabel": "Név",
+	"editTaskNameRequiredError": "A név megadása kötelező",
+	"editTaskTagsHelp": "A feladat címkéi (vesszővel elválasztva)",
+	"editTaskTagsLabel": "Címkék",
+	"editTaskTagsMaxLengthError": "Legfeljebb 5 címke lehet",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Feladat szerkesztése {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Új feladat",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Új feladat hozzáadása",
+	"listEditTaskButtonTitle": "A feladat szerkesztése",
+	"listEmptyTaskList": "A feladatlista üres, miért nem ad hozzá újat?",
+	"listHeaderTaskId": "Feladat {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Feladatlista",
+	"listRemoveTaskButtonTitle": "A feladat eltávolítása"
+}
