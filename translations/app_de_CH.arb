@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Die Tags der Aufgabe ( Durch Komma getrennt )",
 	"editTaskTagsLabel": "Schilder",
 	"editTaskTagsMaxLengthError": "Es können maximal 5 Tags vorhanden sein",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Die Aufgabe wurde erstellt!",
+	"editTaskEditSuccess": "Die Aufgabe wurde gespeichert!",
+	"editTaskSaveError": "Die Formulardaten sind ungültig!",
 	"editTitleEditTask": "Aufgabe bearbeiten {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Neue Aufgabe",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Die Aufgabe wurde gelöscht!",
 	"listAddTaskButtonTitle": "Hinzufügen einer neuen Aufgabe",
 	"listEditTaskButtonTitle": "Diese Aufgabe bearbeiten",
 	"listEmptyTaskList": "Die Aufgabenliste ist leer, warum nicht eine neue hinzufügen?",
