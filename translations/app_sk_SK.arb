@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Zrušenie aktuálnych zmien",
+	"editSaveButtonTitle": "Uloží aktuálne zmeny",
+	"editTaskCompletionBetweenError": "Hodnota dokončenia musí byť medzi 0 a 100",
+	"editTaskCompletionHelp": "Hodnota dokončenia úlohy",
+	"editTaskCompletionLabel": "Dokončenie",
+	"editTaskDescriptionHelp": "Popis úlohy",
+	"editTaskDescriptionLabel": "Popis: __________",
+	"editTaskIdentifierHelp": "Interný identifikátor úlohy ( Generuje sa automaticky )",
+	"editTaskIdentifierLabel": "Identifikátor",
+	"editTaskNameHelp": "Názov úlohy",
+	"editTaskNameLabel": "Meno",
+	"editTaskNameRequiredError": "Názov je povinný",
+	"editTaskTagsHelp": "Značky úlohy (oddelené čiarkou)",
+	"editTaskTagsLabel": "Tagy",
+	"editTaskTagsMaxLengthError": "Maximálne 5 značiek môže byť",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Upraviť úlohu {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nová úloha",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Pridanie novej úlohy",
+	"listEditTaskButtonTitle": "Upraviť túto úlohu",
+	"listEmptyTaskList": "Zoznam úloh je prázdny, prečo nepridať nový?",
+	"listHeaderTaskId": "Úloha {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Zoznam úloh",
+	"listRemoveTaskButtonTitle": "Odstrániť túto úlohu"
+}
