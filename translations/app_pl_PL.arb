@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Tagi zadania (oddzielone przecinkiem)",
 	"editTaskTagsLabel": "Tagi",
 	"editTaskTagsMaxLengthError": "Maksymalnie może być tylko 5 tagów",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Zadanie powstało!",
+	"editTaskEditSuccess": "Zadanie zostało uratowane!",
+	"editTaskSaveError": "Dane formularza są nieprawidłowe!",
 	"editTitleEditTask": "Edytowanie zadania {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nowe zadanie",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Zadanie zostało usunięte!",
 	"listAddTaskButtonTitle": "Dodawanie nowego zadania",
 	"listEditTaskButtonTitle": "Edytuj to zadanie",
 	"listEmptyTaskList": "Lista zadań jest pusta, dlaczego nie dodać nowej?",
