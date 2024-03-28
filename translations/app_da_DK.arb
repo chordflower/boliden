@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Opgavens tags ( Adskilt af komma )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Der kan kun maksimalt være 5 tags",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Opgaven blev oprettet!",
+	"editTaskEditSuccess": "Opgaven blev reddet!",
+	"editTaskSaveError": "Formulardataene er ugyldige!",
 	"editTitleEditTask": "Rediger opgave {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Ny opgave",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Opgaven blev slettet!",
 	"listAddTaskButtonTitle": "Tilføje en ny opgave",
 	"listEditTaskButtonTitle": "Rediger denne opgave",
 	"listEmptyTaskList": "Opgavelisten er tom, hvorfor ikke tilføje en ny?",
