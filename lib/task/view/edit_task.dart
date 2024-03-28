@@ -79,7 +79,10 @@ class _EditTaskPageState extends State<EditTaskPage> {
       Navigator.pop(widgetContext);
     } else {
       ScaffoldMessenger.of(widgetContext).showSnackBar(
-        SnackBar(content: Text('The form data is invalid!')),
+        SnackBar(
+          content: Text('The form data is invalid!'),
+          backgroundColor: Colors.red[200],
+        ),
       );
     }
   }

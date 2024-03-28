@@ -14,6 +14,9 @@
 	"editTaskTagsHelp": "The tags of the task ( Separated by comma )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "There can be only 5 tags at maximum",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
 	"editTitleEditTask": "Edit task {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -25,6 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "New task",
+	"listRemoveSuccess": "The task was deleted!",
 	"listAddTaskButtonTitle": "Add a new task",
 	"listEditTaskButtonTitle": "Edit this task",
 	"listEmptyTaskList": "The task list is empty, why not add a new one?",
