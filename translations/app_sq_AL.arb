@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Etiketat e detyrës ( Ndarë nga koma )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Mund të ketë vetëm 5 tags në maksimum",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Detyra u krijua!",
+	"editTaskEditSuccess": "Detyra u shpëtua!",
+	"editTaskSaveError": "Të dhënat e formularit janë të pavlefshme!",
 	"editTitleEditTask": "Ndrysho detyrën {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Detyrë e re",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Detyra u fshi!",
 	"listAddTaskButtonTitle": "Shto një detyrë të re",
 	"listEditTaskButtonTitle": "Ndrysho këtë detyrë",
 	"listEmptyTaskList": "Lista e detyrave është bosh, pse të mos shtoni një të re?",
