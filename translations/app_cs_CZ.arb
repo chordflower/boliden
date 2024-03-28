@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Značky úkolu ( oddělené čárkou )",
 	"editTaskTagsLabel": "Visačky",
 	"editTaskTagsMaxLengthError": "Značek může být maximálně 5",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Úkol byl vytvořen!",
+	"editTaskEditSuccess": "Úkol byl uložen!",
+	"editTaskSaveError": "Data formuláře jsou neplatná!",
 	"editTitleEditTask": "Upravit úkol {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nový úkol",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Úkol byl smazán!",
 	"listAddTaskButtonTitle": "Přidání nového úkolu",
 	"listEditTaskButtonTitle": "Upravit tento úkol",
 	"listEmptyTaskList": "Seznam úkolů je prázdný, proč nepřidat nový?",
