@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Ülesande sildid ( Eraldatud komaga )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Maksimaalselt saab olla ainult 5 silti",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Ülesanne oli loodud!",
+	"editTaskEditSuccess": "Ülesanne salvestati!",
+	"editTaskSaveError": "Vormi andmed on kehtetud!",
 	"editTitleEditTask": "Redigeeri ülesannet {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Uus ülesanne",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Ülesanne kustutati!",
 	"listAddTaskButtonTitle": "Uue tööülesande lisamine",
 	"listEditTaskButtonTitle": "Redigeerige seda toimingut",
 	"listEmptyTaskList": "Ülesannete loend on tühi, miks mitte lisada uus?",
