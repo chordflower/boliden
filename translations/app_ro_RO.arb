@@ -14,9 +14,9 @@
 	"editTaskTagsHelp": "Etichetele sarcinii ( Separate prin virgulă )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Pot exista doar 5 etichete la maxim",
-	"editTaskCreateSuccess": "The task was created!",
-	"editTaskEditSuccess": "The task was saved!",
-	"editTaskSaveError": "The form data is invalid!",
+	"editTaskCreateSuccess": "Sarcina a fost creată!",
+	"editTaskEditSuccess": "Sarcina a fost salvată!",
+	"editTaskSaveError": "Datele din formular nu sunt valide!",
 	"editTitleEditTask": "Editare activitate {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -28,7 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Sarcină nouă",
-	"listRemoveSuccess": "The task was deleted!",
+	"listRemoveSuccess": "Sarcina a fost ștearsă!",
 	"listAddTaskButtonTitle": "Adăugarea unei activități noi",
 	"listEditTaskButtonTitle": "Editați această activitate",
 	"listEmptyTaskList": "Lista de sarcini este goală, de ce să nu adăugați una nouă?",
