@@ -1,0 +1,47 @@
+{
+	"editCancelButtonTitle": "Cancelar as alterações atuais",
+	"editSaveButtonTitle": "Guarda as alterações actuais",
+	"editTaskCompletionBetweenError": "O valor de conclusão deve estar entre 0 e 100",
+	"editTaskCompletionHelp": "Valor de conclusão da tarefa",
+	"editTaskCompletionLabel": "Finalização",
+	"editTaskDescriptionHelp": "Descrição da tarefa",
+	"editTaskDescriptionLabel": "Descrição",
+	"editTaskIdentifierHelp": "O identificador interno da tarefa (gerado automaticamente)",
+	"editTaskIdentifierLabel": "Identificador",
+	"editTaskNameHelp": "O nome da tarefa",
+	"editTaskNameLabel": "Nome",
+	"editTaskNameRequiredError": "O nome é obrigatório",
+	"editTaskTagsHelp": "Etiquetas da tarefa (separados por vírgula)",
+	"editTaskTagsLabel": "Etiquetas",
+	"editTaskTagsMaxLengthError": "Pode haver apenas 5 etiquetas no máximo",
+	"editTaskCreateSuccess": "The task was created!",
+	"editTaskEditSuccess": "The task was saved!",
+	"editTaskSaveError": "The form data is invalid!",
+	"editTitleEditTask": "Editar tarefa {id}",
+	"@editTitleEditTask": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"editTitleNewTask": "Nova tarefa",
+	"listRemoveSuccess": "The task was deleted!",
+	"listAddTaskButtonTitle": "Adicionar uma nova tarefa",
+	"listEditTaskButtonTitle": "Editar esta tarefa",
+	"listEmptyTaskList": "A lista de tarefas está vazia, por que não adicionar uma nova?",
+	"listHeaderTaskId": "Tarefa {id}",
+	"@listHeaderTaskId": {
+		"placeholders": {
+			"id": {
+				"description": "Task id",
+				"example": "2",
+				"type": "int"
+			}
+		}
+	},
+	"listListHeader": "Lista de tarefas",
+	"listRemoveTaskButtonTitle": "Remover esta tarefa"
+}
