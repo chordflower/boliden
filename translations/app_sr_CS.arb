@@ -14,6 +14,9 @@
 	"editTaskTagsHelp": "Oznake zadatka ( Razdvojene zarezom )",
 	"editTaskTagsLabel": "Oznake",
 	"editTaskTagsMaxLengthError": "Maksimalno može biti samo 5 oznaka",
+	"editTaskCreateSuccess": "Zadatak je kreiran!",
+	"editTaskEditSuccess": "Zadatak je sačuvan!",
+	"editTaskSaveError": "Podaci obrasca su nevažeći!",
 	"editTitleEditTask": "Uređivanje zadatka {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -25,6 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Novi zadatak",
+	"listRemoveSuccess": "Zadatak je izbrisan!",
 	"listAddTaskButtonTitle": "Dodavanje novog zadatka",
 	"listEditTaskButtonTitle": "Uredi ovaj zadatak",
 	"listEmptyTaskList": "Lista zadataka je prazna, zašto ne biste dodali novu?",

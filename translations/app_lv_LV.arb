@@ -14,6 +14,9 @@
 	"editTaskTagsHelp": "Uzdevuma tagi ( Atdalīti ar komatu )",
 	"editTaskTagsLabel": "Tags",
 	"editTaskTagsMaxLengthError": "Maksimāli var būt tikai 5 tagi",
+	"editTaskCreateSuccess": "Uzdevums tika izveidots!",
+	"editTaskEditSuccess": "Uzdevums tika izglābts!",
+	"editTaskSaveError": "Veidlapas dati nav derīgi!",
 	"editTitleEditTask": "Rediģēt uzdevumu {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -25,6 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Jauns uzdevums",
+	"listRemoveSuccess": "Uzdevums tika izdzēsts!",
 	"listAddTaskButtonTitle": "Jauna uzdevuma pievienošana",
 	"listEditTaskButtonTitle": "Rediģēt šo uzdevumu",
 	"listEmptyTaskList": "Uzdevumu saraksts ir tukšs, kāpēc gan nepievienot jaunu?",

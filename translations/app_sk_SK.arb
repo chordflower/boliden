@@ -14,6 +14,9 @@
 	"editTaskTagsHelp": "Značky úlohy (oddelené čiarkou)",
 	"editTaskTagsLabel": "Tagy",
 	"editTaskTagsMaxLengthError": "Maximálne 5 značiek môže byť",
+	"editTaskCreateSuccess": "Úloha bola vytvorená!",
+	"editTaskEditSuccess": "Úloha bola uložená!",
+	"editTaskSaveError": "Údaje formulára sú neplatné!",
 	"editTitleEditTask": "Upraviť úlohu {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -25,6 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nová úloha",
+	"listRemoveSuccess": "Úloha bola odstránená!",
 	"listAddTaskButtonTitle": "Pridanie novej úlohy",
 	"listEditTaskButtonTitle": "Upraviť túto úlohu",
 	"listEmptyTaskList": "Zoznam úloh je prázdny, prečo nepridať nový?",

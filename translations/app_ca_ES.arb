@@ -14,6 +14,9 @@
 	"editTaskTagsHelp": "Les etiquetes de la tasca ( Separades per comes )",
 	"editTaskTagsLabel": "Etiquetes",
 	"editTaskTagsMaxLengthError": "Només hi pot haver 5 etiquetes com a màxim",
+	"editTaskCreateSuccess": "La tasca estava creada!",
+	"editTaskEditSuccess": "La tasca es va salvar!",
+	"editTaskSaveError": "Les dades del formulari no són vàlides!",
 	"editTitleEditTask": "Edita la tasca {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -25,6 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nova tasca",
+	"listRemoveSuccess": "La tasca s'ha esborrat!",
 	"listAddTaskButtonTitle": "Afegir una tasca nova",
 	"listEditTaskButtonTitle": "Editeu aquesta tasca",
 	"listEmptyTaskList": "La llista de tasques està buida, per què no afegir-ne una de nova?",

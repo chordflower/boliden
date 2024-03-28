@@ -14,6 +14,9 @@
 	"editTaskTagsHelp": "I tag dell'attività ( Separati da virgola )",
 	"editTaskTagsLabel": "Tag",
 	"editTaskTagsMaxLengthError": "Possono essere presenti al massimo 5 tag",
+	"editTaskCreateSuccess": "L'attività è stata creata!",
+	"editTaskEditSuccess": "Il compito è stato salvato!",
+	"editTaskSaveError": "I dati del modulo non sono validi!",
 	"editTitleEditTask": "Modificare l'attività {id}",
 	"@editTitleEditTask": {
 		"placeholders": {
@@ -25,6 +28,7 @@
 		}
 	},
 	"editTitleNewTask": "Nuova attività",
+	"listRemoveSuccess": "L'attività è stata eliminata!",
 	"listAddTaskButtonTitle": "Aggiungere una nuova attività",
 	"listEditTaskButtonTitle": "Modificare questa attività",
 	"listEmptyTaskList": "L'elenco delle attività è vuoto, perché non aggiungerne uno nuovo?",
